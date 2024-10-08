@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.UserPage"
+             Title="UserPage">
+    <VerticalStackLayout>
+        <Frame  
+ HeightRequest="250" WidthRequest="250" 
+CornerRadius="150" 
+IsClippedToBounds="True" 
+Padding="0" 
+HorizontalOptions="Center" 
+VerticalOptions="Center"
+Margin="5"
+BorderColor="White">
+            <Image Source="logos.png" 
+Aspect="AspectFill"/>
+        </Frame>
+
+        <Label
+    Text="Create Account"
+    HorizontalTextAlignment="Center"
+    FontAttributes="Bold"
+          FontSize="30"
+    />
+
+        <Entry
+    Text="Username"
+    BackgroundColor="White"
+    TextColor="Black"
+    Margin="20"
+    FontAttributes="Bold"
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+    WidthRequest="200"/>
+
+        <Entry
+    Text="Email Address"
+    Background="White"
+    TextColor="Black"
+    Margin="10"
+    FontAttributes="Bold"
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+    WidthRequest="200"/>
+
+        <Entry
+    Text="Password"
+    Background="White"
+    TextColor="Black"
+    Margin="20"
+    FontAttributes="Bold"
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+    WidthRequest="200"/>
+
+        <Entry
+    Text="Confirm Paqssrod"
+    Background="White"
+    TextColor="Black"
+    Margin="10"
+    FontAttributes="Bold"
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+    WidthRequest="200"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

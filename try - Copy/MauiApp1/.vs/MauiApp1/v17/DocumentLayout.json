@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Krentz\\Desktop\\try - Copy\\MauiApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{107741FF-0378-4868-8B58-FF00C142932D}|MauiApp1\\MauiApp1.csproj|c:\\users\\krentz\\desktop\\try - copy\\mauiapp1\\mauiapp1\\views\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{107741FF-0378-4868-8B58-FF00C142932D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107741FF-0378-4868-8B58-FF00C142932D}|MauiApp1\\MauiApp1.csproj|c:\\users\\krentz\\desktop\\try - copy\\mauiapp1\\mauiapp1\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{107741FF-0378-4868-8B58-FF00C142932D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107741FF-0378-4868-8B58-FF00C142932D}|MauiApp1\\MauiApp1.csproj|c:\\users\\krentz\\desktop\\try - copy\\mauiapp1\\mauiapp1\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{107741FF-0378-4868-8B58-FF00C142932D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\try - Copy\\MauiApp1\\MauiApp1\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\try - Copy\\MauiApp1\\MauiApp1\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "MauiApp1\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwEcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-29T12:24:05.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\try - Copy\\MauiApp1\\MauiApp1\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\try - Copy\\MauiApp1\\MauiApp1\\Views\\HomePage.xaml",
+              "RelativeToolTip": "MauiApp1\\Views\\HomePage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-29T12:13:50.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\try - Copy\\MauiApp1\\MauiApp1\\Views\\UserPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\Views\\UserPage.xaml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\try - Copy\\MauiApp1\\MauiApp1\\Views\\UserPage.xaml",
+              "RelativeToolTip": "MauiApp1\\Views\\UserPage.xaml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-29T12:13:04.444Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
