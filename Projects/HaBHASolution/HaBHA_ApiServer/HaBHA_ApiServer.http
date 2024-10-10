@@ -1,0 +1,6 @@
+@HaBHA_ApiServer_HostAddress = http://localhost:5018
+
+GET {{HaBHA_ApiServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

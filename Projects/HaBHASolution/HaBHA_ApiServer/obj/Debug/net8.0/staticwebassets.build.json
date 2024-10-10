@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+yPpgDWEQIsyshzQ4viyVhV/t7HosX9s6HusQxQ2fuQ=",
+  "Source": "HaBHA_ApiServer",
+  "BasePath": "_content/HaBHA_ApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

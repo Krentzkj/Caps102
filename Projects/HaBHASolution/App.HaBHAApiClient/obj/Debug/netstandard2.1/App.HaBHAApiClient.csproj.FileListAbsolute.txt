@@ -1,0 +1,10 @@
+C:\Projects\HaBHASolution\App.HaBHAApiClient\bin\Debug\netstandard2.1\App.HaBHAApiClient.deps.json
+C:\Projects\HaBHASolution\App.HaBHAApiClient\bin\Debug\netstandard2.1\App.HaBHAApiClient.dll
+C:\Projects\HaBHASolution\App.HaBHAApiClient\bin\Debug\netstandard2.1\App.HaBHAApiClient.pdb
+C:\Projects\HaBHASolution\App.HaBHAApiClient\obj\Debug\netstandard2.1\App.HaBHAApiClient.csproj.AssemblyReference.cache
+C:\Projects\HaBHASolution\App.HaBHAApiClient\obj\Debug\netstandard2.1\App.HaBHAApiClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\HaBHASolution\App.HaBHAApiClient\obj\Debug\netstandard2.1\App.HaBHAApiClient.AssemblyInfoInputs.cache
+C:\Projects\HaBHASolution\App.HaBHAApiClient\obj\Debug\netstandard2.1\App.HaBHAApiClient.AssemblyInfo.cs
+C:\Projects\HaBHASolution\App.HaBHAApiClient\obj\Debug\netstandard2.1\App.HaBHAApiClient.csproj.CoreCompileInputs.cache
+C:\Projects\HaBHASolution\App.HaBHAApiClient\obj\Debug\netstandard2.1\App.HaBHAApiClient.dll
+C:\Projects\HaBHASolution\App.HaBHAApiClient\obj\Debug\netstandard2.1\App.HaBHAApiClient.pdb
