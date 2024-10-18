@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "97ywoXNg85Y=",
+  "dgSpecHash": "XJmny0jK0pg=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
+  "projectFilePath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krentz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\Krentz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",

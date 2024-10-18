@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj": {}
+    "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
+    "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
+        "projectUniqueName": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
         "projectName": "App.HaBHAApiClient",
-        "projectPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
+        "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
         "packagesPath": "C:\\Users\\Krentz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\obj\\",
+        "outputPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj": {
+    "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj",
+        "projectUniqueName": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj",
         "projectName": "App.HaBHAApiConsumer",
-        "projectPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj",
+        "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj",
         "packagesPath": "C:\\Users\\Krentz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\obj\\",
+        "outputPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -116,32 +116,32 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
-                "projectPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
+              "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
+                "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
               }
             }
           },
           "net8.0-ios17.5": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
-                "projectPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
+              "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
+                "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
               }
             }
           },
           "net8.0-maccatalyst17.5": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
-                "projectPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
+              "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
+                "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
-                "projectPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
+              "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
+                "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj"
               }
             }
           }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {}
+    "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
+    "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
+        "projectUniqueName": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
         "projectName": "App.HaBHAApiClient",
-        "projectPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
+        "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\App.HaBHAApiClient.csproj",
         "packagesPath": "C:\\Users\\Krentz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\obj\\",
+        "outputPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

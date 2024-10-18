@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\HaBHASolution\\",
+  "WorkspaceRootPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|c:\\projects\\habhasolution\\app.habhaapiconsumer\\pages\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|c:\\users\\krentz\\desktop\\pull\\caps102\\projects\\habhasolution\\app.habhaapiconsumer\\pages\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|solutionrelative:app.habhaapiconsumer\\pages\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|c:\\projects\\habhasolution\\app.habhaapiconsumer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|c:\\users\\krentz\\desktop\\pull\\caps102\\projects\\habhasolution\\app.habhaapiconsumer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|solutionrelative:app.habhaapiconsumer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{945868C4-BE00-48FE-8C3B-B75421692FAA}|App.HaBHAApiClient\\App.HaBHAApiClient.csproj|c:\\projects\\habhasolution\\app.habhaapiclient\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{945868C4-BE00-48FE-8C3B-B75421692FAA}|App.HaBHAApiClient\\App.HaBHAApiClient.csproj|c:\\users\\krentz\\desktop\\pull\\caps102\\projects\\habhasolution\\app.habhaapiclient\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{945868C4-BE00-48FE-8C3B-B75421692FAA}|App.HaBHAApiClient\\App.HaBHAApiClient.csproj|solutionrelative:app.habhaapiclient\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|c:\\projects\\habhasolution\\app.habhaapiconsumer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|c:\\users\\krentz\\desktop\\pull\\caps102\\projects\\habhasolution\\app.habhaapiconsumer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E2B9BE6E-D969-4AAC-87E5-02BE4FCCC002}|App.HaBHAApiConsumer\\App.HaBHAApiConsumer.csproj|solutionrelative:app.habhaapiconsumer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EditPage.xaml.cs",
-              "DocumentMoniker": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\Pages\\EditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\Pages\\EditPage.xaml.cs",
               "RelativeDocumentMoniker": "App.HaBHAApiConsumer\\Pages\\EditPage.xaml.cs",
-              "ToolTip": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\Pages\\EditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\Pages\\EditPage.xaml.cs",
               "RelativeToolTip": "App.HaBHAApiConsumer\\Pages\\EditPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -45,40 +45,37 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ApiClientService.cs",
-              "DocumentMoniker": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\ApiClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\ApiClientService.cs",
               "RelativeDocumentMoniker": "App.HaBHAApiClient\\ApiClientService.cs",
-              "ToolTip": "C:\\Projects\\HaBHASolution\\App.HaBHAApiClient\\ApiClientService.cs",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiClient\\ApiClientService.cs",
               "RelativeToolTip": "App.HaBHAApiClient\\ApiClientService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAnwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:14:00.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T07:14:00.027Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\MauiProgram.cs",
               "RelativeDocumentMoniker": "App.HaBHAApiConsumer\\MauiProgram.cs",
-              "ToolTip": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\MauiProgram.cs",
               "RelativeToolTip": "App.HaBHAApiConsumer\\MauiProgram.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:00:21.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T07:00:21.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\AppShell.xaml",
               "RelativeDocumentMoniker": "App.HaBHAApiConsumer\\AppShell.xaml",
-              "ToolTip": "C:\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\App.HaBHAApiConsumer\\AppShell.xaml",
               "RelativeToolTip": "App.HaBHAApiConsumer\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-10T06:58:58.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T06:58:58.236Z"
             }
           ]
         }

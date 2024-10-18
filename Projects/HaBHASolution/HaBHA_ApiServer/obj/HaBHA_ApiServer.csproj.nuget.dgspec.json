@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj": {}
+    "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj": {
+    "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj",
+        "projectUniqueName": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj",
         "projectName": "HaBHA_ApiServer",
-        "projectPath": "C:\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj",
+        "projectPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\HaBHA_ApiServer\\HaBHA_ApiServer.csproj",
         "packagesPath": "C:\\Users\\Krentz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\HaBHASolution\\HaBHA_ApiServer\\obj\\",
+        "outputPath": "C:\\Users\\Krentz\\Desktop\\pull\\Caps102\\Projects\\HaBHASolution\\HaBHA_ApiServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

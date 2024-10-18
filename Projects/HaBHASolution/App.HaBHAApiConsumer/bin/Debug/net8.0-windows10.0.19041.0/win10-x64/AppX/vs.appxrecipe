@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.app.habhaapiconsumer</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>5DF4E007340A804B7E5ED42D0FE3223268D8743AF905AD69EB8716870A01DB1B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.app.habhaapiconsumer_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.app.habhaapiconsumer_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-10T07:25:28.192</Modified>
+      <Modified>2024-10-16T02:55:51.416</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2024-10-10T07:07:56.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.HaBHAApiConsumer.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.HaBHAApiConsumer.runtimeconfig.json">
       <PackagePath>App.HaBHAApiConsumer.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-10T07:12:16.228</Modified>
+      <Modified>2024-10-16T02:55:50.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.HaBHAApiConsumer.dll">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.HaBHAApiConsumer.dll">
       <PackagePath>App.HaBHAApiConsumer.dll</PackagePath>
-      <Modified>2024-10-10T07:25:24.570</Modified>
+      <Modified>2024-10-16T02:55:47.775</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>App.HaBHAApiConsumer.exe</PackagePath>
-      <Modified>2024-10-10T07:25:24.599</Modified>
+      <Modified>2024-10-16T02:55:47.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-10-10T05:18:49.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:44.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:44.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:44.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:44.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:45.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-10-10T05:18:49.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-10-10T05:18:49.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-10-10T07:07:52.339</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:52.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:52.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:52.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:52.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:52.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-10-10T07:07:52.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-10-10T07:07:52.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-10-10T07:07:52.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-10-10T07:07:52.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-10-10T07:07:52.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-10-10T07:07:52.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-10-10T07:07:52.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-10-10T07:07:52.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-10-10T07:07:52.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-10-10T07:07:52.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:52.339</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:52.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:52.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:52.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:52.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-10-10T07:07:52.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-10-10T07:07:52.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-10-10T07:07:52.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-10-10T07:07:52.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-10-10T07:07:52.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:52.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:52.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:52.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:52.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:52.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:52.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:52.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:52.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:52.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:52.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:52.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:52.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:52.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:52.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:52.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:52.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:52.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:52.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:52.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:52.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2024-10-10T07:07:52.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2024-10-10T07:07:52.321</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2024-10-10T07:07:52.321</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2024-10-10T07:07:52.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-10-10T07:07:52.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.HaBHAApiConsumer.deps.json">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiConsumer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.HaBHAApiConsumer.deps.json">
       <PackagePath>App.HaBHAApiConsumer.deps.json</PackagePath>
-      <Modified>2024-10-10T07:12:16.221</Modified>
+      <Modified>2024-10-16T02:55:50.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krentz\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -573,9 +573,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-07T06:05:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\HaBHASolution\App.HaBHAApiClient\bin\Debug\netstandard2.1\App.HaBHAApiClient.dll">
+    <AppxPackagedFile Include="C:\Users\Krentz\Desktop\pull\Caps102\Projects\HaBHASolution\App.HaBHAApiClient\bin\Debug\netstandard2.1\App.HaBHAApiClient.dll">
       <PackagePath>App.HaBHAApiClient.dll</PackagePath>
-      <Modified>2024-10-10T07:20:49.441</Modified>
+      <Modified>2024-10-16T02:54:47.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Krentz\.nuget\packages\microsoft.maui.controls.compatibility\8.0.72\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
