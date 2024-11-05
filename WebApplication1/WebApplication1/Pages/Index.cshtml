@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@using Microsoft.AspNetCore.Identity
+@using WebApplication1.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<div class="text-center">
+    
+</div>
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    if (User.IsInRole("admin"))
+    {
+        <h1 class="text-center display-4">Welcome Admin</h1>
+    }
+    else if (User.IsInRole("client"))
+    {
+        <h1 class="text-center display-4">Welcome Client</h1>
+    }
+}
+
+else
+{
+    <h1 class="text-center display-4">Welcome to SIA 102</h1>
+}
+
+
+@* <a href="/user">user</a><br />
+<a href="/admin">admin</a><br />
+<a href="/client">client</a><br /> *@
+
+
