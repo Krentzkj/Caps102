@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HaBHAMauiApp</name>
+    </assembly>
+    <members>
+        <member name="T:HaBHAMauiApp.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.RegisterModel">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.registerModel"/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.LoginModel">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.loginModel"/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.UserName">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.userName"/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.IsAuthenticated">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.isAuthenticated"/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.Id">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.id"/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.Sensor1">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.sensor1"/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.Sensor2">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.sensor2"/>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.Sensor3">
+            <inheritdoc cref="F:HaBHAMauiApp.ViewModels.MainPageViewModel.sensor3"/>
+        </member>
+        <member name="F:HaBHAMauiApp.ViewModels.MainPageViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:HaBHAMauiApp.ViewModels.MainPageViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:HaBHAMauiApp.ViewModels.MainPageViewModel.Register"/>.</summary>
+        </member>
+        <member name="F:HaBHAMauiApp.ViewModels.MainPageViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:HaBHAMauiApp.ViewModels.MainPageViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:HaBHAMauiApp.ViewModels.MainPageViewModel.Login"/>.</summary>
+        </member>
+        <member name="F:HaBHAMauiApp.ViewModels.MainPageViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:HaBHAMauiApp.ViewModels.MainPageViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:HaBHAMauiApp.ViewModels.MainPageViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:HaBHAMauiApp.ViewModels.MainPageViewModel.Logout"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RegisterModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RegisterModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoginModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoginModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsAuthenticated">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsAuthenticated" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Sensor1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Sensor1" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Sensor2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Sensor2" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Sensor3">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Sensor3" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RegisterModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RegisterModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoginModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoginModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsAuthenticated">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsAuthenticated" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Sensor1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Sensor1" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Sensor2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Sensor2" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Sensor3">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Sensor3" generated properties.</summary>
+        </member>
+    </members>
+</doc>

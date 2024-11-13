@@ -1,0 +1,88 @@
+11/11/2024 6:43:08 am	This log contains information about the import schema operation into project 'ProjectDb' on computer 'LAPTOP-R4T1CH5E' by user '63966'.
+11/11/2024 6:43:08 am	Import of database schema has started.
+11/11/2024 6:43:20 am	Gathering database credentials
+11/11/2024 6:43:20 am	Gathering database options
+11/11/2024 6:43:20 am	Gathering generic database scoped configuration option
+11/11/2024 6:43:20 am	Gathering users
+11/11/2024 6:43:20 am	Gathering roles
+11/11/2024 6:43:20 am	Gathering application roles
+11/11/2024 6:43:20 am	Gathering role memberships
+11/11/2024 6:43:20 am	Gathering filegroups
+11/11/2024 6:43:20 am	Gathering full-text catalogs
+11/11/2024 6:43:20 am	Gathering assemblies
+11/11/2024 6:43:20 am	Gathering certificates
+11/11/2024 6:43:20 am	Gathering asymmetric keys
+11/11/2024 6:43:20 am	Gathering symmetric keys
+11/11/2024 6:43:20 am	Gathering encrypted symmetric keys
+11/11/2024 6:43:20 am	Gathering schemas
+11/11/2024 6:43:20 am	Gathering XML schema collections
+11/11/2024 6:43:20 am	Gathering user-defined data types
+11/11/2024 6:43:20 am	Gathering user-defined types
+11/11/2024 6:43:20 am	Gathering table types
+11/11/2024 6:43:20 am	Gathering unique keys for table types
+11/11/2024 6:43:21 am	Gathering primary keys for table types
+11/11/2024 6:43:21 am	Gathering indexes for table types
+11/11/2024 6:43:21 am	Gathering check constraints for table types
+11/11/2024 6:43:21 am	Gathering default constraints for table types
+11/11/2024 6:43:21 am	Gathering partition functions
+11/11/2024 6:43:21 am	Gathering partition schemes
+11/11/2024 6:43:21 am	Gathering functions
+11/11/2024 6:43:21 am	Gathering encrypted functions
+11/11/2024 6:43:21 am	Gathering aggregates
+11/11/2024 6:43:21 am	Gathering procedures
+11/11/2024 6:43:21 am	Gathering encrypted procedures
+11/11/2024 6:43:21 am	Gathering tables
+11/11/2024 6:44:18 am	Gathering primary keys
+11/11/2024 6:44:18 am	Gathering unique constraints
+11/11/2024 6:44:18 am	Gathering foreign keys
+11/11/2024 6:44:18 am	Gathering default constraints
+11/11/2024 6:44:43 am	Gathering check constraints
+11/11/2024 6:44:43 am	Gathering views
+11/11/2024 6:44:43 am	Gathering encrypted views
+11/11/2024 6:44:43 am	Gathering indexes
+11/11/2024 6:44:43 am	Gathering statistics
+11/11/2024 6:44:43 am	Gathering full-text index stoplists
+11/11/2024 6:44:43 am	Gathering search property lists
+11/11/2024 6:44:43 am	Gathering search properties
+11/11/2024 6:44:43 am	Gathering full-text indexes
+11/11/2024 6:44:43 am	Gathering column store indexes
+11/11/2024 6:44:43 am	Gathering spatial indexes
+11/11/2024 6:44:43 am	Gathering XML indexes
+11/11/2024 6:44:43 am	Gathering Selective XML indexes
+11/11/2024 6:45:34 am	Gathering encrypted triggers
+11/11/2024 6:45:34 am	Gathering triggers
+11/11/2024 6:45:34 am	Gathering encrypted and clr ddl triggers
+11/11/2024 6:45:34 am	Gathering ddl triggers
+11/11/2024 6:45:34 am	Creating edge constraints
+11/11/2024 6:45:34 am	Gathering synonyms
+11/11/2024 6:45:34 am	Gathering defaults
+11/11/2024 6:45:34 am	Gathering data constraint uddt bindings
+11/11/2024 6:45:34 am	Gathering rules
+11/11/2024 6:45:34 am	Gathering data constraint uddt bindings
+11/11/2024 6:45:34 am	Gathering message types
+11/11/2024 6:45:34 am	Gathering queues
+11/11/2024 6:45:34 am	Gathering contracts
+11/11/2024 6:45:34 am	Gathering services
+11/11/2024 6:45:34 am	Gathering event notifications
+11/11/2024 6:45:34 am	Gathering remote service bindings
+11/11/2024 6:45:34 am	Gathering broker priorities
+11/11/2024 6:45:34 am	Gathering signatures
+11/11/2024 6:45:34 am	Gathering compression options
+11/11/2024 6:45:34 am	Gathering sequence types
+11/11/2024 6:45:34 am	Gathering security policies
+11/11/2024 6:45:34 am	Gather column encryption keys
+11/11/2024 6:45:34 am	Gathering column master keys
+11/11/2024 6:45:34 am	Gathering external data sources
+11/11/2024 6:45:34 am	Gathering external file formats
+11/11/2024 6:45:34 am	Gathering external tables
+11/11/2024 6:45:34 am	Gathering XML index compression options
+11/11/2024 6:45:34 am	Gathering extended properties
+11/11/2024 6:45:34 am	Gathering assemblies
+11/11/2024 6:45:34 am	Gathering credentials
+11/11/2024 6:45:34 am	Gathering logins
+11/11/2024 6:45:34 am	Gathering server audits
+11/11/2024 6:45:34 am	Scanning project for duplicate elements
+11/11/2024 6:45:34 am	Finished duplicate element processing
+11/11/2024 6:45:34 am	Finished importing database.
+11/11/2024 6:45:34 am	A summary of the import was saved to the following location: C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\Import Schema Logs\ProjectDb_20241110104308.log
+11/11/2024 6:45:34 am	Click Finish to continue...

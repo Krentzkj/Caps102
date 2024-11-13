@@ -1,0 +1,1 @@
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\HaBHAMauiApp.csproj;x64
