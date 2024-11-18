@@ -1,6 +1,8 @@
 ﻿using HaBHAWebServerApi.Data;
 using HaBHAWebServerApi.Models;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,43 +12,43 @@ namespace HaBHAWebServerApi.Controllers;
 [ApiController]
 public class BoardingHouseController : ControllerBase
 {
-	private readonly HaBHADbContext _haBHADbContext;
+	private readonly BookingDbContext _haBHADbContext;
 
-	public BoardingHouseController(HaBHADbContext haBHADbContext)
+	public BoardingHouseController(BookingDbContext haBHADbContext)
 	{
 		_haBHADbContext = haBHADbContext;
 	}
 
-	[HttpGet]
+	[HttpGet("GetAllUnits")]
 	public ActionResult<IEnumerable<BoardingHouse>> GetboardingHouses()
 	{
-		return _haBHADbContext.BoardingHouses;
+		return _haBHADbContext.BoardingHouse;
 	}
 
 	[HttpGet("{id}")]
 	public async Task<ActionResult<BoardingHouse?>> GetBoardinghouseById(int id)
 	{
-		return await _haBHADbContext.BoardingHouses.Where(x => x.BoardinghouseId == id).SingleOrDefaultAsync();
+		return await _haBHADbContext.BoardingHouse.Where(x => x.BoardinghouseId == id).SingleOrDefaultAsync();
 	}
 
-	[HttpPut("UpdateBoardingHouse")]
+	[HttpPut("UpdateUnit")]
 	public async Task<ActionResult> UpdateBoardinghouse(BoardingHouse boardinghouse)
 	{
-		_haBHADbContext.BoardingHouses.Update(boardinghouse);
+		_haBHADbContext.BoardingHouse.Update(boardinghouse);
 		await _haBHADbContext.SaveChangesAsync();
 		return Ok();
 	}
 
-	[HttpPost]
+	[HttpPost("SaveUnit")]
 	public async Task<ActionResult> PostBoardinghouse(BoardingHouse boardinghouse)
 	{
-		await _haBHADbContext.BoardingHouses.AddAsync(boardinghouse);
+		await _haBHADbContext.BoardingHouse.AddAsync(boardinghouse);
 		await _haBHADbContext.SaveChangesAsync();
 
 		return CreatedAtAction(nameof(GetBoardinghouseById), new { id = boardinghouse.BoardinghouseId }, boardinghouse);
 	}
 
-	[HttpDelete("DeleteBoardingHouse/{id}")]
+	[HttpDelete("DeleteUnit/{id}")]
 	public async Task<IActionResult> DeleteBoardinghouse(int id)
 	{
 		var GetBoardinghouseByIdResult = await GetBoardinghouseById(id);
@@ -60,6 +62,6 @@ public class BoardingHouseController : ControllerBase
 
 	private bool BoardinghouseExists(int id)
 	{
-		return _haBHADbContext.BoardingHouses.Any(e => e.BoardinghouseId == id);
+		return _haBHADbContext.BoardingHouse.Any(e => e.BoardinghouseId == id);
 	}
 }

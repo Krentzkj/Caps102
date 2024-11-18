@@ -236,7 +236,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -249,7 +249,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -378,11 +378,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -395,7 +395,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -421,7 +421,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -434,7 +434,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -887,6 +887,83 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -2747,6 +2824,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -2975,7 +3057,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -2988,7 +3070,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -3117,11 +3199,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -3134,7 +3216,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -3160,7 +3242,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -3173,7 +3255,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -3611,6 +3693,77 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -5471,6 +5624,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -5699,7 +5857,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -5712,7 +5870,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -5841,11 +5999,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -5858,7 +6016,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -5884,7 +6042,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -5897,7 +6055,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -6335,6 +6493,77 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -8195,6 +8424,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -8423,7 +8657,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -8436,7 +8670,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -8565,11 +8799,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -8582,7 +8816,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -8608,7 +8842,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -8621,7 +8855,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -9059,6 +9293,77 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -10919,6 +11224,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -11147,7 +11457,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -11160,7 +11470,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -11289,11 +11599,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -11306,7 +11616,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -11332,7 +11642,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -11345,7 +11655,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -11783,6 +12093,77 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -13643,6 +14024,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -13868,7 +14254,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -13881,7 +14267,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -14010,11 +14396,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -14027,7 +14413,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -14053,7 +14439,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -14066,7 +14452,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -14499,6 +14885,77 @@
           "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -16361,6 +16818,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -16586,7 +17048,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -16599,7 +17061,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -16728,11 +17190,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -16745,7 +17207,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -16771,7 +17233,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -16784,7 +17246,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -17217,6 +17679,77 @@
           "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -19079,6 +19612,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -19304,7 +19842,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -19317,7 +19855,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -19446,11 +19984,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -19463,7 +20001,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -19489,7 +20027,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -19502,7 +20040,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -19935,6 +20473,77 @@
           "lib/net6.0-android30.0/SkiaSharp.Views.Maui.Core.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -21797,6 +22406,11 @@
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -22053,7 +22667,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -22066,7 +22680,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -22195,11 +22809,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -22212,7 +22826,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -22238,7 +22852,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -22251,7 +22865,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -22695,6 +23309,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -22703,9 +23352,56 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -22920,7 +23616,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -22933,7 +23629,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -23062,11 +23758,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -23079,7 +23775,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -23105,7 +23801,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -23118,7 +23814,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -23536,6 +24232,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -23544,9 +24275,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -23761,7 +24533,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -23774,7 +24546,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -23903,11 +24675,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -23920,7 +24692,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -23946,7 +24718,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -23959,7 +24731,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -24377,6 +25149,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -24385,9 +25192,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -24602,7 +25450,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -24615,7 +25463,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -24744,11 +25592,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -24761,7 +25609,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -24787,7 +25635,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -24800,7 +25648,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -25218,6 +26066,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -25226,9 +26109,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -25443,7 +26367,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -25456,7 +26380,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -25585,11 +26509,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -25602,7 +26526,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -25628,7 +26552,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -25641,7 +26565,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -26059,6 +26983,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -26067,9 +27026,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -26291,7 +27291,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -26304,7 +27304,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -26433,11 +27433,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -26450,7 +27450,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -26476,7 +27476,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -26489,7 +27489,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -26912,6 +27912,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -26920,9 +27955,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -27144,7 +28220,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -27157,7 +28233,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -27286,11 +28362,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -27303,7 +28379,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -27329,7 +28405,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -27342,7 +28418,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -27765,6 +28841,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -27773,9 +28884,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -27990,7 +29142,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -28003,7 +29155,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -28132,11 +29284,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -28149,7 +29301,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -28175,7 +29327,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -28188,7 +29340,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -28606,6 +29758,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -28614,9 +29801,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -28837,7 +30065,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -28850,7 +30078,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -28979,11 +30207,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -28996,7 +30224,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -29022,7 +30250,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -29035,7 +30263,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -29459,6 +30687,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -29467,9 +30730,56 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -29684,7 +30994,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -29697,7 +31007,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -29826,11 +31136,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -29843,7 +31153,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -29869,7 +31179,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -29882,7 +31192,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -30300,6 +31610,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -30308,9 +31653,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -30525,7 +31911,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -30538,7 +31924,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -30667,11 +32053,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -30684,7 +32070,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -30710,7 +32096,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -30723,7 +32109,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -31141,6 +32527,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -31149,9 +32570,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -31366,7 +32828,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -31379,7 +32841,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -31508,11 +32970,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -31525,7 +32987,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -31551,7 +33013,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -31564,7 +33026,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -31982,6 +33444,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -31990,9 +33487,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -32207,7 +33745,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -32220,7 +33758,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -32349,11 +33887,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -32366,7 +33904,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -32392,7 +33930,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -32405,7 +33943,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -32823,6 +34361,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -32831,9 +34404,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -33048,7 +34662,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -33061,7 +34675,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -33190,11 +34804,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -33207,7 +34821,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -33233,7 +34847,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -33246,7 +34860,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -33664,6 +35278,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -33672,9 +35321,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -33892,7 +35582,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -33905,7 +35595,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -34034,11 +35724,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -34051,7 +35741,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -34077,7 +35767,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -34090,7 +35780,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -34511,6 +36201,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -34519,9 +36244,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -34736,7 +36502,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -34749,7 +36515,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -34878,11 +36644,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -34895,7 +36661,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -34921,7 +36687,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -34934,7 +36700,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Maui.Controls/8.0.91": {
@@ -35352,6 +37118,41 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
         "type": "package",
         "compile": {
@@ -35360,9 +37161,50 @@
           }
         }
       },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -35598,7 +37440,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -35611,7 +37453,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -35740,11 +37582,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -35757,7 +37599,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -35783,7 +37625,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -35796,7 +37638,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -36585,9 +38427,91 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -36803,7 +38727,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -36816,7 +38740,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -36945,11 +38869,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -36962,7 +38886,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -36988,7 +38912,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -37001,7 +38925,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -37716,9 +39640,85 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -37934,7 +39934,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -37947,7 +39947,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -38076,11 +40076,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -38093,7 +40093,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -38119,7 +40119,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -38132,7 +40132,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -38847,9 +40847,85 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -39065,7 +41141,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -39078,7 +41154,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -39207,11 +41283,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -39224,7 +41300,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -39250,7 +41326,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -39263,7 +41339,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -39978,9 +42054,85 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -40196,7 +42348,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -40209,7 +42361,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -40338,11 +42490,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -40355,7 +42507,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -40381,7 +42533,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -40394,7 +42546,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -41109,9 +43261,85 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -41327,7 +43555,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -41340,7 +43568,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -41469,11 +43697,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -41486,7 +43714,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -41512,7 +43740,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -41525,7 +43753,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -42240,9 +44468,85 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -42458,7 +44762,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -42471,7 +44775,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -42600,11 +44904,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -42617,7 +44921,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -42643,7 +44947,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -42656,7 +44960,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -43371,9 +45675,85 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -43592,7 +45972,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -43605,7 +45985,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.Diagnostics/8.0.1": {
@@ -43734,11 +46114,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.2": {
+      "Microsoft.Extensions.Options/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -43751,7 +46131,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
@@ -43777,7 +46157,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -43790,7 +46170,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
@@ -44514,9 +46894,85 @@
           }
         }
       },
+      "System.IO.Pipelines/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Text.Json/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
       "ApiLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0",
+          "System.Net.Http.Json": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiLibrary.dll": {}
         },
@@ -45016,10 +47472,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
-      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "sha512": "+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -45029,21 +47485,19 @@
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
+        "buildTransitive/net8.0/_._",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
         "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -45271,10 +47725,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/8.0.2": {
-      "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
+    "Microsoft.Extensions.Options/9.0.0": {
+      "sha512": "y2146b3jrPI3Q0lokKXdKLpmXqakYbDIPDV6r3M8SqvSf45WwOTzkyfDpxnZXJsJQEpAsAqjUq5Pu8RCJMjubg==",
       "type": "package",
-      "path": "microsoft.extensions.options/8.0.2",
+      "path": "microsoft.extensions.options/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -45298,22 +47752,20 @@
         "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
         "buildTransitive/net461/Microsoft.Extensions.Options.targets",
         "buildTransitive/net462/Microsoft.Extensions.Options.targets",
-        "buildTransitive/net6.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net8.0/Microsoft.Extensions.Options.targets",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.targets",
         "buildTransitive/netstandard2.0/Microsoft.Extensions.Options.targets",
         "lib/net462/Microsoft.Extensions.Options.dll",
         "lib/net462/Microsoft.Extensions.Options.xml",
-        "lib/net6.0/Microsoft.Extensions.Options.dll",
-        "lib/net6.0/Microsoft.Extensions.Options.xml",
-        "lib/net7.0/Microsoft.Extensions.Options.dll",
-        "lib/net7.0/Microsoft.Extensions.Options.xml",
         "lib/net8.0/Microsoft.Extensions.Options.dll",
         "lib/net8.0/Microsoft.Extensions.Options.xml",
+        "lib/net9.0/Microsoft.Extensions.Options.dll",
+        "lib/net9.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.8.0.2.nupkg.sha512",
+        "microsoft.extensions.options.9.0.0.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -45348,10 +47800,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/8.0.0": {
-      "sha512": "bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+    "Microsoft.Extensions.Primitives/9.0.0": {
+      "sha512": "N3qEBzmLMYiASUlKxxFIISP4AiwuPTHF5uCh+2CWSwwzAJiIYx0kBJsS30cp1nvhSySFAVi30jecD307jV+8Kg==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/8.0.0",
+      "path": "microsoft.extensions.primitives/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -45361,19 +47813,17 @@
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
+        "buildTransitive/net8.0/_._",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
         "lib/net462/Microsoft.Extensions.Primitives.dll",
         "lib/net462/Microsoft.Extensions.Primitives.xml",
-        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
-        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
-        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
-        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
         "lib/net8.0/Microsoft.Extensions.Primitives.dll",
         "lib/net8.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net9.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net9.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.9.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -47991,6 +50441,62 @@
         "version.txt"
       ]
     },
+    "System.IO.Pipelines/9.0.0": {
+      "sha512": "eA3cinogwaNB4jdjQHOP3Z3EuyiDII7MT35jgtnsA4vkn0LUrrSHsU0nzHTzFzmaFYeKV7MYyMxOocFzsBHpTw==",
+      "type": "package",
+      "path": "system.io.pipelines/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net462/System.IO.Pipelines.xml",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.xml",
+        "lib/net9.0/System.IO.Pipelines.dll",
+        "lib/net9.0/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.9.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Net.Http.Json/9.0.0": {
+      "sha512": "e8s0BFOwHaFTqz6wi3l+9tm0SuKOUs5wiahHTjnAabF9n1+0NuZeG/vOLo2vSfUp+DlIChaRfnAiOFkRpHN/ew==",
+      "type": "package",
+      "path": "system.net.http.json/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Net.Http.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "lib/net462/System.Net.Http.Json.dll",
+        "lib/net462/System.Net.Http.Json.xml",
+        "lib/net8.0/System.Net.Http.Json.dll",
+        "lib/net8.0/System.Net.Http.Json.xml",
+        "lib/net9.0/System.Net.Http.Json.dll",
+        "lib/net9.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.9.0.0.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
       "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
       "type": "package",
@@ -48005,6 +50511,109 @@
         "ref/net6.0/System.Runtime.InteropServices.xml",
         "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
         "system.runtime.interopservices.nfloat.internal.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/9.0.0": {
+      "sha512": "e2hMgAErLbKyUUwt18qSBf9T5Y+SFAL3ZedM8fLupkVj8Rj2PZ9oxQ37XX2LF8fTO1wNIxvKpihD7Of7D/NxZw==",
+      "type": "package",
+      "path": "system.text.encodings.web/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net462/System.Text.Encodings.Web.xml",
+        "lib/net8.0/System.Text.Encodings.Web.dll",
+        "lib/net8.0/System.Text.Encodings.Web.xml",
+        "lib/net9.0/System.Text.Encodings.Web.dll",
+        "lib/net9.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.9.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/9.0.0": {
+      "sha512": "js7+qAu/9mQvnhA4EfGMZNEzXtJCDxgkgj8ohuxq/Qxv+R56G+ljefhiJHOxTNiw54q8vmABCWUwkMulNdlZ4A==",
+      "type": "package",
+      "path": "system.text.json/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "buildTransitive/net461/System.Text.Json.targets",
+        "buildTransitive/net462/System.Text.Json.targets",
+        "buildTransitive/net8.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netstandard2.0/System.Text.Json.targets",
+        "lib/net462/System.Text.Json.dll",
+        "lib/net462/System.Text.Json.xml",
+        "lib/net8.0/System.Text.Json.dll",
+        "lib/net8.0/System.Text.Json.xml",
+        "lib/net9.0/System.Text.Json.dll",
+        "lib/net9.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.9.0.0.nupkg.sha512",
+        "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },

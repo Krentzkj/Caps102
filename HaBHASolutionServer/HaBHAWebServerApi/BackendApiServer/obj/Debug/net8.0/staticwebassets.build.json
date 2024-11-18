@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q5H1dvDSZ1rca5j8TlLHIvWLk39+5JM28ob3J5C5XN4=",
+  "Source": "BackendApiServer",
+  "BasePath": "_content/BackendApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

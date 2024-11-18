@@ -41,3 +41,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HaBHAMauiApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Gordz/Projects/HaBHASolutionServer/HaBHAWebServerApi/HaBHAMauiApp/Views/AddAndEditBoardingHousePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HaBHAMauiApp.Views.AddAndEditBoardingHousePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddAndEditBoardingHousePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddAndEditBoardingHousePage.xaml
+
+[C:/Gordz/Projects/HaBHASolutionServer/HaBHAWebServerApi/HaBHAMauiApp/Views/TenantDashBoardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HaBHAMauiApp.Views.TenantDashBoardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TenantDashBoardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TenantDashBoardPage.xaml

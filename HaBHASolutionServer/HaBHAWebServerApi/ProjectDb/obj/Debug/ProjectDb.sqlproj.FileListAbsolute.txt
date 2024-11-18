@@ -2,9 +2,5 @@ C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\bin\Debug\Proj
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\bin\Debug\ProjectDb.dll
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\bin\Debug\ProjectDb.pdb
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\obj\Debug\ProjectDb.sqlproj.AssemblyReference.cache
-C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\obj\Debug\Model.xml
-C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\obj\Debug\refactor.xml
-C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\obj\Debug\postdeploy.sql
-C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\obj\Debug\predeploy.sql
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\obj\Debug\ProjectDb.dll
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ProjectDb\obj\Debug\ProjectDb.pdb

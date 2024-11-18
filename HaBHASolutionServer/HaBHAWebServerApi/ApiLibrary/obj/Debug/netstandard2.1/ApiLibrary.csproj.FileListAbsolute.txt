@@ -1,0 +1,10 @@
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.deps.json
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.dll
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.pdb
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.csproj.AssemblyReference.cache
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.AssemblyInfoInputs.cache
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.AssemblyInfo.cs
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.csproj.CoreCompileInputs.cache
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.dll
+C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.pdb

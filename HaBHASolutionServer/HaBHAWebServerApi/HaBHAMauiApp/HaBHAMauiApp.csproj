@@ -75,4 +75,13 @@
 	  <ProjectReference Include="..\ApiLibrary\ApiLibrary.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Views\AddAndEditBoardingHousePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TenantDashBoardPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-11T08:22:05.958</Modified>
+      <Modified>2024-11-14T05:41:54.571</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-10T02:55:54.178</Modified>
+      <Modified>2024-11-14T03:35:39.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HaBHAMauiApp.runtimeconfig.json">
       <PackagePath>HaBHAMauiApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-11-10T02:57:27.563</Modified>
+      <Modified>2024-11-14T03:39:02.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HaBHAMauiApp.dll">
       <PackagePath>HaBHAMauiApp.dll</PackagePath>
-      <Modified>2024-11-11T04:09:42.064</Modified>
+      <Modified>2024-11-14T03:35:38.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HaBHAMauiApp.exe</PackagePath>
-      <Modified>2024-11-11T04:09:42.115</Modified>
+      <Modified>2024-11-14T03:35:38.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:51.960</Modified>
+      <Modified>2024-11-14T03:35:36.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:51.977</Modified>
+      <Modified>2024-11-14T03:35:36.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:51.997</Modified>
+      <Modified>2024-11-14T03:35:36.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.032</Modified>
+      <Modified>2024-11-14T03:35:36.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.147</Modified>
+      <Modified>2024-11-14T03:35:36.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,211 +83,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-11-10T02:55:52.956</Modified>
+      <Modified>2024-11-14T03:35:37.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.947</Modified>
+      <Modified>2024-11-14T03:35:37.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.946</Modified>
+      <Modified>2024-11-14T03:35:37.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.946</Modified>
+      <Modified>2024-11-14T03:35:37.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.946</Modified>
+      <Modified>2024-11-14T03:35:37.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.945</Modified>
+      <Modified>2024-11-14T03:35:37.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.953</Modified>
+      <Modified>2024-11-14T03:35:37.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.952</Modified>
+      <Modified>2024-11-14T03:35:37.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.952</Modified>
+      <Modified>2024-11-14T03:35:37.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.952</Modified>
+      <Modified>2024-11-14T03:35:37.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.952</Modified>
+      <Modified>2024-11-14T03:35:37.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.954</Modified>
+      <Modified>2024-11-14T03:35:37.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.954</Modified>
+      <Modified>2024-11-14T03:35:37.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.953</Modified>
+      <Modified>2024-11-14T03:35:37.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.953</Modified>
+      <Modified>2024-11-14T03:35:37.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.953</Modified>
+      <Modified>2024-11-14T03:35:37.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.956</Modified>
+      <Modified>2024-11-14T03:35:37.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.956</Modified>
+      <Modified>2024-11-14T03:35:37.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.956</Modified>
+      <Modified>2024-11-14T03:35:37.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.955</Modified>
+      <Modified>2024-11-14T03:35:37.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.955</Modified>
+      <Modified>2024-11-14T03:35:37.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.955</Modified>
+      <Modified>2024-11-14T03:35:37.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.955</Modified>
+      <Modified>2024-11-14T03:35:37.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.954</Modified>
+      <Modified>2024-11-14T03:35:37.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.954</Modified>
+      <Modified>2024-11-14T03:35:37.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.954</Modified>
+      <Modified>2024-11-14T03:35:37.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.949</Modified>
+      <Modified>2024-11-14T03:35:37.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.949</Modified>
+      <Modified>2024-11-14T03:35:37.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.949</Modified>
+      <Modified>2024-11-14T03:35:37.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.948</Modified>
+      <Modified>2024-11-14T03:35:37.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.948</Modified>
+      <Modified>2024-11-14T03:35:37.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.950</Modified>
+      <Modified>2024-11-14T03:35:37.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.950</Modified>
+      <Modified>2024-11-14T03:35:37.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.950</Modified>
+      <Modified>2024-11-14T03:35:37.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.950</Modified>
+      <Modified>2024-11-14T03:35:37.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.949</Modified>
+      <Modified>2024-11-14T03:35:37.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.951</Modified>
+      <Modified>2024-11-14T03:35:37.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.951</Modified>
+      <Modified>2024-11-14T03:35:37.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.951</Modified>
+      <Modified>2024-11-14T03:35:37.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.951</Modified>
+      <Modified>2024-11-14T03:35:37.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.951</Modified>
+      <Modified>2024-11-14T03:35:37.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.948</Modified>
+      <Modified>2024-11-14T03:35:37.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.948</Modified>
+      <Modified>2024-11-14T03:35:37.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.947</Modified>
+      <Modified>2024-11-14T03:35:37.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.947</Modified>
+      <Modified>2024-11-14T03:35:37.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.947</Modified>
+      <Modified>2024-11-14T03:35:37.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.957</Modified>
+      <Modified>2024-11-14T03:35:37.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.957</Modified>
+      <Modified>2024-11-14T03:35:37.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.957</Modified>
+      <Modified>2024-11-14T03:35:37.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.957</Modified>
+      <Modified>2024-11-14T03:35:37.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-11-10T02:55:52.956</Modified>
+      <Modified>2024-11-14T03:35:37.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HaBHAMauiApp.deps.json">
       <PackagePath>HaBHAMauiApp.deps.json</PackagePath>
-      <Modified>2024-11-10T02:57:27.555</Modified>
+      <Modified>2024-11-14T03:39:02.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -341,9 +341,9 @@
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
       <Modified>2024-09-16T23:09:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-      <Modified>2024-09-16T23:09:34.000</Modified>
+      <Modified>2024-10-29T02:41:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.diagnostics\8.0.1\lib\net8.0\Microsoft.Extensions.Diagnostics.dll">
       <PackagePath>Microsoft.Extensions.Diagnostics.dll</PackagePath>
@@ -369,17 +369,17 @@
       <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
       <Modified>2023-10-31T14:59:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.options\8.0.2\lib\net8.0\Microsoft.Extensions.Options.dll">
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.options\9.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
-      <Modified>2024-01-18T03:05:26.000</Modified>
+      <Modified>2024-10-29T02:43:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.options.configurationextensions\8.0.0\lib\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll">
       <PackagePath>Microsoft.Extensions.Options.ConfigurationExtensions.dll</PackagePath>
       <Modified>2023-10-31T14:59:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.primitives\9.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
-      <Modified>2023-10-31T14:58:52.000</Modified>
+      <Modified>2024-10-29T02:40:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.graphics.win2d\1.2.0\lib\net6.0-windows10.0.19041.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
@@ -553,6 +553,22 @@
       <PackagePath>System.Drawing.Common.dll</PackagePath>
       <Modified>2021-10-15T20:57:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.io.pipelines\9.0.0\lib\net8.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+      <Modified>2024-10-29T02:46:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.net.http.json\9.0.0\lib\net8.0\System.Net.Http.Json.dll">
+      <PackagePath>System.Net.Http.Json.dll</PackagePath>
+      <Modified>2024-10-29T02:47:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.text.encodings.web\9.0.0\lib\net8.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2024-10-29T02:40:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.text.json\9.0.0\lib\net8.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2024-10-29T02:47:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.maui.controls.core\8.0.91\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
       <Modified>2024-09-24T23:43:28.000</Modified>
@@ -704,6 +720,10 @@
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\skiasharp.nativeassets.win32\2.88.8\runtimes\win-x64\native\libSkiaSharp.dll">
       <PackagePath>libSkiaSharp.dll</PackagePath>
       <Modified>2024-04-09T17:24:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.dll">
+      <PackagePath>ApiLibrary.dll</PackagePath>
+      <Modified>2024-11-14T03:35:26.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\livechartscore.behaviours\2.0.0-rc2\lib\net7.0-windows10.0.19041\LiveChartsCore.Behaviours.pri">
       <PackagePath>LiveChartsCore.Behaviours.pri</PackagePath>

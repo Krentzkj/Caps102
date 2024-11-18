@@ -256,7 +256,7 @@
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.diagnostics\8.0.1\lib\net8.0\Microsoft.Extensions.Diagnostics.dll">
@@ -277,13 +277,13 @@
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
       <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.options\8.0.2\lib\net8.0\Microsoft.Extensions.Options.dll">
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.options\9.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.options.configurationextensions\8.0.0\lib\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll">
       <PackagePath>Microsoft.Extensions.Options.ConfigurationExtensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.extensions.primitives\9.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.graphics.win2d\1.2.0\lib\net6.0-windows10.0.19041.0\Microsoft.Graphics.Canvas.Interop.dll">
@@ -415,6 +415,18 @@
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.drawing.common\4.7.3\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
       <PackagePath>System.Drawing.Common.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.io.pipelines\9.0.0\lib\net8.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.net.http.json\9.0.0\lib\net8.0\System.Net.Http.Json.dll">
+      <PackagePath>System.Net.Http.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.text.encodings.web\9.0.0\lib\net8.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.text.json\9.0.0\lib\net8.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.maui.controls.core\8.0.91\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
     </AppxPackagedFile>
@@ -528,6 +540,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\skiasharp.nativeassets.win32\2.88.8\runtimes\win-x64\native\libSkiaSharp.dll">
       <PackagePath>libSkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.dll">
+      <PackagePath>ApiLibrary.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\livechartscore.behaviours\2.0.0-rc2\lib\net7.0-windows10.0.19041\LiveChartsCore.Behaviours.pri">
       <PackagePath>LiveChartsCore.Behaviours.pri</PackagePath>

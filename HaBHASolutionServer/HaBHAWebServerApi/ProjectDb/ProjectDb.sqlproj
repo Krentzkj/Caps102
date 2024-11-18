@@ -65,14 +65,6 @@
     <None Include="ProjectDb.publish.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\__EFMigrationsHistory.sql" />
-    <Build Include="dbo\Tables\AspNetRoles.sql" />
-    <Build Include="dbo\Tables\AspNetUsers.sql" />
-    <Build Include="dbo\Tables\AspNetRoleClaims.sql" />
-    <Build Include="dbo\Tables\AspNetUserClaims.sql" />
-    <Build Include="dbo\Tables\AspNetUserLogins.sql" />
-    <Build Include="dbo\Tables\AspNetUserRoles.sql" />
-    <Build Include="dbo\Tables\AspNetUserTokens.sql" />
     <Build Include="dbo\Tables\Boardinghouses.sql" />
     <Build Include="dbo\Tables\BookingTransactions.sql" />
   </ItemGroup>

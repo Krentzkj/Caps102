@@ -6,6 +6,7 @@
     [Descriptions]    NVARCHAR (MAX)  NULL,
     [Amenities]       NVARCHAR (MAX)  NULL,
     [ByteBase64]      NVARCHAR (MAX)  NULL,
+    [IsAvailable] BIT NULL, 
     CONSTRAINT [PK_Boardinghouses] PRIMARY KEY CLUSTERED ([BoardinghouseId] ASC)
 );
 

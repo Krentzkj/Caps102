@@ -12,15 +12,22 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddDbContext<HaBHADbContext>(x =>
+builder.Services.AddDbContext<BookingDbContext>(x =>
 {
 	var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 	x.UseSqlServer(connectionString);
 });
 
+
 builder.Services.AddAuthentication();
-builder.Services.AddIdentityApiEndpoints<IdentityUser>()
-		.AddEntityFrameworkStores<HaBHADbContext>();
+//builder.Services.AddIdentityApiEndpoints<IdentityUser>()
+//		.AddEntityFrameworkStores<BookingDbContext>();
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+	.AddEntityFrameworkStores<BookingDbContext>()
+	.AddDefaultTokenProviders();
+
+
 
 builder.Services.AddSwaggerGen(options =>
 {
@@ -44,7 +51,7 @@ if (app.Environment.IsDevelopment())
 	app.UseSwaggerUI();
 }
 
-app.MapIdentityApi<IdentityUser>();
+//app.MapIdentityApi<IdentityUser>();
 
 app.UseHttpsRedirection();
 

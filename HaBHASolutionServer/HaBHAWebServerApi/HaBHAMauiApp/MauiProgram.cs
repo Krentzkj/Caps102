@@ -1,6 +1,9 @@
 ﻿using HaBHAMauiApp.Services;
 using HaBHAMauiApp.ViewModels;
 using Microsoft.Extensions.Logging;
+using ApiLibrary.ServiceCollection;
+using static System.Net.WebRequestMethods;
+using HaBHAMauiApp.Views;
 
 namespace HaBHAMauiApp
 {
@@ -17,6 +20,8 @@ namespace HaBHAMauiApp
 					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 				});
 
+			builder.Services.AddDemoApiCLientService(x => x.ApiBaseAddress = "https://localhost:7295/");
+
 			builder.Services.AddHttpClient("custom-httpclient", httpClient =>
 			{
 				var baseAddress = DeviceInfo.Platform == DevicePlatform.Android ? "https://localhost:7295" : "https://localhost:7295";
@@ -31,6 +36,10 @@ namespace HaBHAMauiApp
 			builder.Services.AddSingleton<MainPage>();
 			builder.Services.AddSingleton<MainPageViewModel>();
 			builder.Services.AddSingleton<ClientService>();
+
+
+			builder.Services.AddTransient<TenantDashBoardPage>();
+
 #if DEBUG
 			builder.Logging.AddDebug();
 #endif

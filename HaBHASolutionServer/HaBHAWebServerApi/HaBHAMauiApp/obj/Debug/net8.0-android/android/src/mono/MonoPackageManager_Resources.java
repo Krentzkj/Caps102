@@ -41,6 +41,10 @@ public class MonoPackageManager_Resources {
 		"SkiaSharp.Views.Maui.Controls.dll",
 		"SkiaSharp.Views.Maui.Controls.Compatibility.dll",
 		"SkiaSharp.Views.Maui.Core.dll",
+		"System.IO.Pipelines.dll",
+		"System.Net.Http.Json.dll",
+		"System.Text.Encodings.Web.dll",
+		"System.Text.Json.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",
@@ -162,6 +166,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
+		"ApiLibrary.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 	};
 	public static String[] Dependencies = new String[]{
