@@ -1,1 +1,1 @@
-C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\HaBHAMauiApp.csproj;x64
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\HaBHAMauiApp\HaBHAMauiApp.csproj;x64

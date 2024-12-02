@@ -722,7 +722,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -3543,7 +3543,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -6343,7 +6343,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -9143,7 +9143,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -11943,7 +11943,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -14740,7 +14740,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -17534,7 +17534,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -20328,7 +20328,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -22419,7 +22419,7 @@
         }
       }
     },
-    "net8.0-ios17.0": {
+    "net8.0-ios17.5": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -22897,12 +22897,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -22917,116 +22917,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -23037,12 +23037,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23055,12 +23055,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23076,12 +23076,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -23096,12 +23096,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23109,12 +23109,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23122,12 +23122,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23139,7 +23139,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -23410,7 +23410,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-arm": {
+    "net8.0-ios17.5/android-arm": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -23846,12 +23846,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23866,116 +23866,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -23986,12 +23986,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24004,12 +24004,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24025,12 +24025,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -24045,12 +24045,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24058,12 +24058,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24071,12 +24071,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24088,7 +24088,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -24327,7 +24327,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-arm64": {
+    "net8.0-ios17.5/android-arm64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -24763,12 +24763,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24783,116 +24783,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -24903,12 +24903,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24921,12 +24921,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24942,12 +24942,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -24962,12 +24962,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24975,12 +24975,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24988,12 +24988,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25005,7 +25005,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -25244,7 +25244,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-x64": {
+    "net8.0-ios17.5/android-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -25680,12 +25680,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25700,116 +25700,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -25820,12 +25820,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25838,12 +25838,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25859,12 +25859,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -25879,12 +25879,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25892,12 +25892,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25905,12 +25905,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25922,7 +25922,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -26161,7 +26161,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-x86": {
+    "net8.0-ios17.5/android-x86": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -26597,12 +26597,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26617,116 +26617,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -26737,12 +26737,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26755,12 +26755,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26776,12 +26776,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -26796,12 +26796,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26809,12 +26809,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26822,12 +26822,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26839,7 +26839,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -27078,7 +27078,7 @@
         }
       }
     },
-    "net8.0-ios17.0/iossimulator-x64": {
+    "net8.0-ios17.5/iossimulator-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -27521,12 +27521,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27541,116 +27541,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -27661,12 +27661,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27679,12 +27679,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27700,12 +27700,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -27720,12 +27720,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27733,12 +27733,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27746,12 +27746,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27763,7 +27763,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -28007,7 +28007,7 @@
         }
       }
     },
-    "net8.0-ios17.0/maccatalyst-x64": {
+    "net8.0-ios17.5/maccatalyst-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -28450,12 +28450,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -28470,116 +28470,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -28590,12 +28590,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -28608,12 +28608,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -28629,12 +28629,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -28649,12 +28649,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -28662,12 +28662,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -28675,12 +28675,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -28692,7 +28692,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -28936,7 +28936,7 @@
         }
       }
     },
-    "net8.0-ios17.0/win10-x64": {
+    "net8.0-ios17.5/win10-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -29372,12 +29372,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -29392,116 +29392,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-ios17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-ios17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-ios17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-ios17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-ios17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-ios17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-ios17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-ios17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-ios17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-ios17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-ios17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-ios17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-ios17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-ios17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-ios17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-ios17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-ios17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-ios17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-ios17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-ios17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-ios17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-ios17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-ios17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-ios17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-ios17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-ios17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-ios17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-ios17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-ios17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-ios17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-ios17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-ios17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-ios17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-ios17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-ios17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -29512,12 +29512,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -29530,12 +29530,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -29551,12 +29551,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -29571,12 +29571,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -29584,12 +29584,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -29597,12 +29597,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -29614,7 +29614,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -29853,7 +29853,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0": {
+    "net8.0-maccatalyst17.5": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -30295,12 +30295,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -30315,116 +30315,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -30435,12 +30435,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -30453,12 +30453,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -30474,12 +30474,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -30494,12 +30494,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -30507,12 +30507,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -30520,12 +30520,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -30537,7 +30537,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -30788,7 +30788,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-arm": {
+    "net8.0-maccatalyst17.5/android-arm": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -31224,12 +31224,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -31244,116 +31244,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -31364,12 +31364,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -31382,12 +31382,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -31403,12 +31403,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -31423,12 +31423,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -31436,12 +31436,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -31449,12 +31449,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -31466,7 +31466,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -31705,7 +31705,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-arm64": {
+    "net8.0-maccatalyst17.5/android-arm64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -32141,12 +32141,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -32161,116 +32161,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -32281,12 +32281,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -32299,12 +32299,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -32320,12 +32320,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -32340,12 +32340,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -32353,12 +32353,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -32366,12 +32366,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -32383,7 +32383,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -32622,7 +32622,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-x64": {
+    "net8.0-maccatalyst17.5/android-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -33058,12 +33058,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -33078,116 +33078,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -33198,12 +33198,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -33216,12 +33216,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -33237,12 +33237,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -33257,12 +33257,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -33270,12 +33270,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -33283,12 +33283,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -33300,7 +33300,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -33539,7 +33539,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-x86": {
+    "net8.0-maccatalyst17.5/android-x86": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -33975,12 +33975,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -33995,116 +33995,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -34115,12 +34115,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -34133,12 +34133,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -34154,12 +34154,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -34174,12 +34174,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -34187,12 +34187,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -34200,12 +34200,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -34217,7 +34217,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -34456,7 +34456,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/iossimulator-x64": {
+    "net8.0-maccatalyst17.5/iossimulator-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -34892,12 +34892,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -34912,116 +34912,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -35032,12 +35032,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35050,12 +35050,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35071,12 +35071,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -35091,12 +35091,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35104,12 +35104,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35117,12 +35117,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35134,7 +35134,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -35373,7 +35373,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/maccatalyst-x64": {
+    "net8.0-maccatalyst17.5/maccatalyst-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -35812,12 +35812,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35832,116 +35832,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -35952,12 +35952,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35970,12 +35970,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -35991,12 +35991,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -36011,12 +36011,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36024,12 +36024,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36037,12 +36037,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36054,7 +36054,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -36296,7 +36296,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/win10-x64": {
+    "net8.0-maccatalyst17.5/win10-x64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -36732,12 +36732,12 @@
           "Microsoft.Maui.Controls.Xaml": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Compatibility.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Compatibility.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36752,116 +36752,116 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.dll": {
             "related": ".pdb;.xml"
           }
         },
         "resource": {
-          "lib/net8.0-maccatalyst17.0/ar/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ar/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ar"
           },
-          "lib/net8.0-maccatalyst17.0/ca/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ca/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ca"
           },
-          "lib/net8.0-maccatalyst17.0/cs/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/cs/Microsoft.Maui.Controls.resources.dll": {
             "locale": "cs"
           },
-          "lib/net8.0-maccatalyst17.0/da/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/da/Microsoft.Maui.Controls.resources.dll": {
             "locale": "da"
           },
-          "lib/net8.0-maccatalyst17.0/de/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/de/Microsoft.Maui.Controls.resources.dll": {
             "locale": "de"
           },
-          "lib/net8.0-maccatalyst17.0/el/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/el/Microsoft.Maui.Controls.resources.dll": {
             "locale": "el"
           },
-          "lib/net8.0-maccatalyst17.0/es/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/es/Microsoft.Maui.Controls.resources.dll": {
             "locale": "es"
           },
-          "lib/net8.0-maccatalyst17.0/fi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fi"
           },
-          "lib/net8.0-maccatalyst17.0/fr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/fr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "fr"
           },
-          "lib/net8.0-maccatalyst17.0/he/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/he/Microsoft.Maui.Controls.resources.dll": {
             "locale": "he"
           },
-          "lib/net8.0-maccatalyst17.0/hi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hi"
           },
-          "lib/net8.0-maccatalyst17.0/hr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hr"
           },
-          "lib/net8.0-maccatalyst17.0/hu/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/hu/Microsoft.Maui.Controls.resources.dll": {
             "locale": "hu"
           },
-          "lib/net8.0-maccatalyst17.0/id/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/id/Microsoft.Maui.Controls.resources.dll": {
             "locale": "id"
           },
-          "lib/net8.0-maccatalyst17.0/it/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/it/Microsoft.Maui.Controls.resources.dll": {
             "locale": "it"
           },
-          "lib/net8.0-maccatalyst17.0/ja/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ja/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ja"
           },
-          "lib/net8.0-maccatalyst17.0/ko/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ko/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ko"
           },
-          "lib/net8.0-maccatalyst17.0/ms/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ms/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ms"
           },
-          "lib/net8.0-maccatalyst17.0/nb/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nb/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nb"
           },
-          "lib/net8.0-maccatalyst17.0/nl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/nl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "nl"
           },
-          "lib/net8.0-maccatalyst17.0/pl/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pl/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pl"
           },
-          "lib/net8.0-maccatalyst17.0/pt-BR/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt-BR/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net8.0-maccatalyst17.0/pt/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/pt/Microsoft.Maui.Controls.resources.dll": {
             "locale": "pt"
           },
-          "lib/net8.0-maccatalyst17.0/ro/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ro/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ro"
           },
-          "lib/net8.0-maccatalyst17.0/ru/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/ru/Microsoft.Maui.Controls.resources.dll": {
             "locale": "ru"
           },
-          "lib/net8.0-maccatalyst17.0/sk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sk"
           },
-          "lib/net8.0-maccatalyst17.0/sv/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/sv/Microsoft.Maui.Controls.resources.dll": {
             "locale": "sv"
           },
-          "lib/net8.0-maccatalyst17.0/th/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/th/Microsoft.Maui.Controls.resources.dll": {
             "locale": "th"
           },
-          "lib/net8.0-maccatalyst17.0/tr/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/tr/Microsoft.Maui.Controls.resources.dll": {
             "locale": "tr"
           },
-          "lib/net8.0-maccatalyst17.0/uk/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/uk/Microsoft.Maui.Controls.resources.dll": {
             "locale": "uk"
           },
-          "lib/net8.0-maccatalyst17.0/vi/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/vi/Microsoft.Maui.Controls.resources.dll": {
             "locale": "vi"
           },
-          "lib/net8.0-maccatalyst17.0/zh-HK/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-HK/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-HK"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hans/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net8.0-maccatalyst17.0/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
+          "lib/net8.0-maccatalyst17.5/zh-Hant/Microsoft.Maui.Controls.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -36872,12 +36872,12 @@
           "Microsoft.Maui.Maps": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36890,12 +36890,12 @@
           "Microsoft.Maui.Core": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Xaml.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Controls.Xaml.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36911,12 +36911,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -36931,12 +36931,12 @@
           "Microsoft.Maui.Graphics": "8.0.91"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36944,12 +36944,12 @@
       "Microsoft.Maui.Graphics/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36957,12 +36957,12 @@
       "Microsoft.Maui.Maps/8.0.91": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Maps.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -36974,7 +36974,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -48926,10 +48926,10 @@
         "microsoft.maui.resizetizer.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.0": {
-      "sha512": "B3etT5XQ2nlWkZGO2m/ytDYrOmSsQG1XNBaM6ZYlX5Ch/tDrMFadr0/mK6gjZwaQc55g+5+WZMw4Cz3m8VEF7g==",
+    "Microsoft.NET.ILLink.Tasks/8.0.8": {
+      "sha512": "P8wR6MUWwYXIjPJuBaZgo5zlI/GWI6QEAo6NyVIbPefa9CCkohYu7dP2rD/mrqnjEqfRHyl+h9VZrDoGpELqYg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.0",
+      "path": "microsoft.net.illink.tasks/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -48943,7 +48943,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -52788,13 +52788,13 @@
       "Microsoft.Maui.Controls >= 8.0.91",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.91",
       "Microsoft.Maui.Controls.Maps >= 8.0.91",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.8",
       "Newtonsoft.Json >= 13.0.3",
       "Particle.Maui >= 1.0.3",
       "SkiaSharp.Views >= 2.88.8",
       "SkiaSharp.Views.Maui.Controls.Compatibility >= 2.88.8"
     ],
-    "net8.0-ios17.0": [
+    "net8.0-ios17.5": [
       "ApiLibrary >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "LiveChartsCore.SkiaSharpView.Maui >= 2.0.0-rc2",
@@ -52804,13 +52804,13 @@
       "Microsoft.Maui.Controls >= 8.0.91",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.91",
       "Microsoft.Maui.Controls.Maps >= 8.0.91",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.8",
       "Newtonsoft.Json >= 13.0.3",
       "Particle.Maui >= 1.0.3",
       "SkiaSharp.Views >= 2.88.8",
       "SkiaSharp.Views.Maui.Controls.Compatibility >= 2.88.8"
     ],
-    "net8.0-maccatalyst17.0": [
+    "net8.0-maccatalyst17.5": [
       "ApiLibrary >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "LiveChartsCore.SkiaSharpView.Maui >= 2.0.0-rc2",
@@ -52820,7 +52820,7 @@
       "Microsoft.Maui.Controls >= 8.0.91",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.91",
       "Microsoft.Maui.Controls.Maps >= 8.0.91",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.8",
       "Newtonsoft.Json >= 13.0.3",
       "Particle.Maui >= 1.0.3",
       "SkiaSharp.Views >= 2.88.8",
@@ -52843,24 +52843,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\63966\\.nuget\\packages\\": {},
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\HaBHAMauiApp\\HaBHAMauiApp.csproj",
+      "projectUniqueName": "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\HaBHAMauiApp\\HaBHAMauiApp.csproj",
       "projectName": "HaBHAMauiApp",
-      "projectPath": "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\HaBHAMauiApp\\HaBHAMauiApp.csproj",
-      "packagesPath": "C:\\Users\\63966\\.nuget\\packages\\",
-      "outputPath": "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\HaBHAMauiApp\\obj\\",
+      "projectPath": "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\HaBHAMauiApp\\HaBHAMauiApp.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\HaBHAMauiApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\63966\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52879,32 +52879,32 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
-              "projectPath": "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
+            "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
+              "projectPath": "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
             }
           }
         },
-        "net8.0-ios17.0": {
+        "net8.0-ios17.5": {
           "targetAlias": "net8.0-ios",
           "projectReferences": {
-            "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
-              "projectPath": "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
+            "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
+              "projectPath": "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
             }
           }
         },
-        "net8.0-maccatalyst17.0": {
+        "net8.0-maccatalyst17.5": {
           "targetAlias": "net8.0-maccatalyst",
           "projectReferences": {
-            "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
-              "projectPath": "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
+            "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
+              "projectPath": "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
             }
           }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
-              "projectPath": "C:\\Gordz\\Projects\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
+            "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj": {
+              "projectPath": "C:\\Code\\jauod cap\\Caps102\\HaBHASolutionServer\\HaBHAWebServerApi\\ApiLibrary\\ApiLibrary.csproj"
             }
           }
         }
@@ -52913,6 +52913,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -52954,7 +52959,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.0, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -52993,9 +52998,9 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-ios17.0": {
+      "net8.0-ios17.5": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
           "CommunityToolkit.Mvvm": {
@@ -53033,7 +53038,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.0, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -53072,9 +53077,9 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-maccatalyst17.0": {
+      "net8.0-maccatalyst17.5": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
           "CommunityToolkit.Mvvm": {
@@ -53112,7 +53117,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.0, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -53152,7 +53157,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
@@ -53220,7 +53225,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.31, 10.0.19041.31]"
+            "version": "[10.0.19041.34, 10.0.19041.34]"
           }
         ],
         "frameworkReferences": {
@@ -53231,7 +53236,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

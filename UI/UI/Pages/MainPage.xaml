@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.MainPage">
+
+    <ScrollView Padding="16">
+        <VerticalStackLayout
+            WidthRequest="350"
+            BackgroundColor="White"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Spacing="16">
+            
+            <Image
+            Source="habha_logo.jpg"
+            HorizontalOptions="Center"
+            WidthRequest="300"
+            HeightRequest="300"
+            Margin="0,0,0,-70" />
+
+
+            <!--<Label
+                Text="HaBHA"
+              FontSize="32"
+                FontAttributes="Bold"
+                TextColor="Black"
+                HorizontalOptions="Center" Margin="0,16,0,4"/>
+
+            <Label
+                Text="HanapBoardingHouse Apartment"
+                FontSize="16"
+               TextColor="Black"
+                 HorizontalOptions="Center"
+                Margin="0,4,0,24"/>-->
+
+
+            <VerticalStackLayout
+                 WidthRequest="250" 
+                HorizontalOptions="Center" 
+                Spacing="16">
+
+                <Label 
+                    Text="Login" 
+                    FontSize="20" 
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    HorizontalOptions="Center" 
+                    Margin="0,0,0,16"
+                    />
+
+               
+                    <Entry x:Name="Username"
+                           Placeholder="Username"
+                           TextColor="Black"
+                           HeightRequest="40"
+                          
+                       BackgroundColor="LightGray"/>
+                
+                     <Entry x:Name="Password"
+                             TextColor="Black"
+                           Placeholder="Pssword"
+                            IsPassword="True"
+                           HeightRequest="40"
+                          
+                       BackgroundColor="LightGray"/>
+
+                <HorizontalStackLayout
+                    HorizontalOptions="Fill"
+                    Spacing="-10"
+                    Margin="-10">
+                    
+                    <Button 
+                        
+                        Text="Forgot Password?"
+                        TextColor="Gray" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="Start"/>
+
+                    <Button Clicked="createAccountPage1_Clicked"
+                            Text="Create Account?"
+                            TextColor="Blue" 
+                            BackgroundColor="Transparent" 
+                            HorizontalOptions="End"/>
+
+                    </HorizontalStackLayout>
+
+                <Button
+                    Clicked="Login"
+                    Text="Login" 
+                    BackgroundColor="Blue"
+                    TextColor="White" 
+                     HorizontalOptions="FillAndExpand" Padding="10"/>
+
+
+                <Label Text="Or Sign up With" 
+                       HorizontalOptions="Center" TextColor="Gray"
+                       Margin="0,16,0,8"/>
+                <!--icon logo-->
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Margin="0,0,0,10">
+                  
+                    <Image Source="ggle.png" WidthRequest="26" HeightRequest="26"/>
+                    <Image Source="facebook_logo.png" WidthRequest="24" HeightRequest="24"/>
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+        
+    </ScrollView>
+
+</ContentPage>

@@ -8,3 +8,14 @@ C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\net
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.csproj.CoreCompileInputs.cache
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.dll
 C:\Gordz\Projects\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.pdb
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.deps.json
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.dll
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\bin\Debug\netstandard2.1\ApiLibrary.pdb
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.csproj.AssemblyReference.cache
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.AssemblyInfoInputs.cache
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.AssemblyInfo.cs
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.csproj.CoreCompileInputs.cache
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.sourcelink.json
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.dll
+C:\Code\jauod cap\Caps102\HaBHASolutionServer\HaBHAWebServerApi\ApiLibrary\obj\Debug\netstandard2.1\ApiLibrary.pdb
