@@ -1,0 +1,32 @@
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\appsettings.Development.json
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\appsettings.json
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.exe
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.deps.json
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.runtimeconfig.json
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.pdb
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.csproj.AssemblyReference.cache
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.AssemblyInfoInputs.cache
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.AssemblyInfo.cs
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.csproj.CoreCompileInputs.cache
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.MvcApplicationPartsAssemblyInfo.cs
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.MvcApplicationPartsAssemblyInfo.cache
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\staticwebassets.build.json
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\staticwebassets.development.json
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\staticwebassets\msbuild.Asp.net Core Identity with Jwt in Web API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\staticwebassets\msbuild.build.Asp.net Core Identity with Jwt in Web API.props
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Asp.net Core Identity with Jwt in Web API.props
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Asp.net Core Identity with Jwt in Web API.props
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\scopedcss\bundle\Asp.net Core Identity with Jwt in Web API.styles.css
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.csproj.CopyComplete
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\refint\Asp.net Core Identity with Jwt in Web API.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.pdb
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\Asp.net Core Identity with Jwt in Web API.genruntimeconfig.cache
+C:\ASP Web API Projects\AspIdentityMinimalApi\Asp.net Core Identity with Jwt in Web API\obj\Debug\net8.0\ref\Asp.net Core Identity with Jwt in Web API.dll
