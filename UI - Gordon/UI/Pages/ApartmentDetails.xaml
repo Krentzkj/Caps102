@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Pages.ApartmentDetails"
+             Title="ApartmentDetails">
+    <ScrollView>
+        <StackLayout Padding="16">
+            <!-- Card Container -->
+            <Frame BorderColor="#D1D5DB" Padding="0" CornerRadius="8" HasShadow="True">
+                <StackLayout>
+
+                    <!-- Image & Overlay for Distance and Virtual Tour -->
+                    <Grid>
+                        <Image Source="https://placehold.co/600x300" HeightRequest="160" Aspect="AspectFill" />
+                        <Label Text="2kms away" BackgroundColor="#3b82f6" TextColor="White" Padding="8" 
+                               HorizontalOptions="Start" VerticalOptions="Start" Margin="8"
+                               FontSize="12"/>
+                        <Button Text="Virtual Tour" BackgroundColor="#F3F4F6" TextColor="#111" 
+                                HorizontalOptions="End" VerticalOptions="Start" Margin="8"/>
+                    </Grid>
+
+                    <!-- Card Content -->
+                    <StackLayout Padding="16">
+                        <Label Text="Parcon Apartment" FontSize="18" FontAttributes="Bold" />
+                        <Label Text="PHP 3000/month" FontSize="16" TextColor="#6B7280" Margin="0,4"/>
+
+                        <!-- Rating Section -->
+                        <StackLayout Orientation="Horizontal" Spacing="4" VerticalOptions="Start">
+                            <Label Text="⭐⭐⭐⭐" TextColor="Yellow" />
+                            <Label Text="3.4" TextColor="#6B7280"/>
+                        </StackLayout>
+
+                        <!-- Owner Info Section -->
+                        <StackLayout Orientation="Horizontal" Spacing="8" VerticalOptions="Start" Margin="0,8">
+                            <Image Source="https://placehold.co/40x40" WidthRequest="40" HeightRequest="40" 
+                                   Aspect="AspectFill" HorizontalOptions="Start" VerticalOptions="Center" />
+                            <StackLayout>
+                                <Label Text="Lucy Heartfilia" FontAttributes="Bold"/>
+                                <Label Text="Owner" TextColor="#6B7280" FontSize="12"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <!-- Action Buttons -->
+                    <StackLayout Orientation="Horizontal" Spacing="16" Padding="16" BackgroundColor="#F3F4F6">
+                        <Button Text="Map View" BackgroundColor="#D1D5DB" TextColor="Black" Padding="8" 
+                                CornerRadius="8"/>
+                        <Button Text="Rent" BackgroundColor="#3B82F6" TextColor="White" Padding="8" 
+                                CornerRadius="8"/>
+                    </StackLayout>
+
+                    <!-- Details Section -->
+                    <StackLayout Padding="16">
+                        <Label Text="Details" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Reviews" TextColor="#3B82F6" FontSize="14"/>
+
+                        <!-- Review Section -->
+                        <Frame BorderColor="#D1D5DB" Padding="12" CornerRadius="8" HasShadow="True" Margin="0,8">
+                            <StackLayout>
+                                <Label Text="Wal El NGALAN" FontAttributes="Bold"/>
+                                <Label Text="June 2, 2023" FontSize="12" TextColor="#6B7280"/>
+                                <Label Text="The location is near SCC." FontSize="14"/>
+                                <Label Text="⭐⭐⭐⭐" TextColor="Yellow"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

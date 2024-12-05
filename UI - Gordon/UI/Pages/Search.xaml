@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Pages.Search"
+             Title="Search">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+
+        <StackLayout Padding="16">
+            <!-- Search Bar Section -->
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" Spacing="8">
+                <Label Text="Search" VerticalOptions="Center" FontSize="18" FontAttributes="Bold"/>
+                <Entry Placeholder="Search" WidthRequest="200" />
+                <Button Text="🔍" BackgroundColor="#3b82f6" TextColor="Gray" Padding="8" CornerRadius="8"/>
+            </StackLayout>
+
+
+        <!-- List of Items -->
+            <StackLayout Spacing="16">
+                <!-- Item 1 -->
+                <Frame BorderColor="#D1D5DB" Padding="16" CornerRadius="8" HasShadow="True">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="8">
+                            <Image Source="https://placehold.co/50x50" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" HorizontalOptions="Start"/>
+                            <StackLayout>
+                                <Label Text="Paps Supapo" FontAttributes="Bold"/>
+                                <Label Text="Owner" TextColor="#6B7280"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <Image Source="https://placehold.co/600x400" Margin="0,8" Aspect="AspectFill"/>
+                        <Label Text="Upsidedown Room" FontAttributes="Bold" Margin="0,8"/>
+                        <Label Text="PHP 2500/month" TextColor="#6B7280"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Item 2 -->
+                <Frame BorderColor="#D1D5DB" Padding="16" CornerRadius="8" HasShadow="True">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="8">
+                            <Image Source="https://placehold.co/50x50" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" HorizontalOptions="Start"/>
+                            <StackLayout>
+                                <Label Text="Popop Ann" FontAttributes="Bold"/>
+                                <Label Text="Owner" TextColor="#6B7280"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <Image Source="https://placehold.co/600x400" Margin="0,8" Aspect="AspectFill"/>
+                        <Label Text="Hope Apartment" FontAttributes="Bold" Margin="0,8"/>
+                        <Label Text="PHP 6500/month" TextColor="#6B7280"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Item 3 -->
+                <Frame BorderColor="#D1D5DB" Padding="16" CornerRadius="8" HasShadow="True">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="8">
+                            <Image Source="https://placehold.co/50x50" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" HorizontalOptions="Start"/>
+                            <StackLayout>
+                                <Label Text="Owner" FontAttributes="Bold"/>
+                                <Label Text="Owner" TextColor="#6B7280"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <Image Source="https://placehold.co/600x400" Margin="0,8" Aspect="AspectFill"/>
+                        <Label Text="G's Bed Spacer Room" FontAttributes="Bold" Margin="0,8"/>
+                        <Label Text="PHP 2500/month" TextColor="#6B7280"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

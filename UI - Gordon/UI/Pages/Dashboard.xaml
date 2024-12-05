@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UI.Models"
+
+             x:Class="UI.Pages.Dashboard"
+             Title="Dashboard">
+    <ScrollView Padding="16">
+        <VerticalStackLayout  WidthRequest="350"
+         BackgroundColor="LightGray"
+         HorizontalOptions="Center"
+         VerticalOptions="CenterAndExpand"
+         Spacing="16">
+            <!-- Title Section -->
+            <Label Text="Your Location" 
+                   FontSize="16" 
+                   FontAttributes="Bold" 
+                   TextColor="#030303" />
+
+            <Label Text="{Binding Location}" 
+       FontSize="14" 
+       TextColor="#747474" />
+
+
+            <!-- Search Bar -->
+            <HorizontalStackLayout Margin="5,0,5,0" Spacing="8">
+                <Entry 
+                        WidthRequest="290"
+                        Placeholder="Search..." 
+                       BackgroundColor="White" 
+                       TextColor="Black" 
+                       HorizontalOptions="FillAndExpand" 
+                       VerticalOptions="Center" />
+                <Button Text="🔍" 
+                        BackgroundColor="White" 
+                        TextColor="White" 
+                        Padding="8"
+                        Margin="-5,0,0,0"
+                        CornerRadius="8" />
+            </HorizontalStackLayout>
+
+            <!-- Near You Section -->
+            <Label
+                WidthRequest="300"
+                Text="Near you" 
+                   FontSize="18" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" />
+
+            <Frame WidthRequest="300" BackgroundColor="White" CornerRadius="8" Padding="8" HasShadow="True">
+                <CarouselView ItemsSource="{Binding Rooms}" HeightRequest="200">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <VerticalStackLayout>
+                                <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Rating}" TextColor="#FFD700" FontSize="14" />
+                                        <Label Text="{Binding Price}" FontSize="16" FontAttributes="Bold" TextColor="Black" />
+                                        <Label Text="{Binding Name}" FontSize="14" TextColor="#747474" />
+                                        <Label Text="{Binding Distance}" FontSize="14" TextColor="#747474" />
+                                    </VerticalStackLayout>
+                                    <Button Text="+" 
+                                BackgroundColor="#00A0A0" 
+                                TextColor="White" 
+                                WidthRequest="40" 
+                                HeightRequest="40" 
+                                CornerRadius="20"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:DashboardViewModel}}, Path=ViewDetailsCommand}"
+                                CommandParameter="{Binding Id}" />
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </Frame>
+
+
+            <!-- New Listings Section -->
+            <Label WidthRequest="300" Text="New Listings" 
+                   FontSize="18" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" />
+
+            <!-- Listing Items -->
+            <VerticalStackLayout Spacing="8">
+                <CollectionView ItemsSource="{Binding BoardingHouses}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BackgroundColor="White" CornerRadius="8" Padding="8" Margin="0,0,0,8" HasShadow="True">
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="14" TextColor="Black" />
+                                    <Label Text="{Binding Price, StringFormat='PHP {0:N2}/month'}" FontSize="14" TextColor="#747474" />
+                                </VerticalStackLayout>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding BindingContext.ViewDetailsCommand, Source={x:Reference Name=BoardingHousePage}}" CommandParameter="{Binding Name}" />
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+
+
+
+            <!-- Footer Buttons -->
+            <HorizontalStackLayout Margin="-10 ,10,0,10" Spacing="8" HorizontalOptions="Center" Padding="10">
+                <Button WidthRequest="60"
+            Text="Home" 
+            FontSize="10"
+             BackgroundColor="#E5E5E5" 
+            TextColor="#030303" 
+            CornerRadius="8" />
+             <Button WidthRequest="60"
+            Text="Map" 
+            FontSize="10" 
+              BackgroundColor="#E5E5E5" 
+            TextColor="#030303" 
+            CornerRadius="8" />
+             <Button WidthRequest="60"
+            Text="Search" 
+            FontSize="10" 
+             BackgroundColor="#E5E5E5" 
+            TextColor="#030303" 
+            CornerRadius="8" />
+            <Button WidthRequest="60"
+            Text="Activity" 
+            FontSize="10" 
+              BackgroundColor="#E5E5E5" 
+            TextColor="#030303" 
+            CornerRadius="8" />
+           <Button
+               Clicked="ViewProfile_clicked"
+               WidthRequest="60"
+            Text="Profile" 
+            FontSize="10" 
+             BackgroundColor="#E5E5E5" 
+            TextColor="#030303" 
+            CornerRadius="8" />
+            </HorizontalStackLayout>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Pages.Owner.NotificationPage"
+             Title="NotificationPage"
+             BackgroundColor="Bisque">
+    <StackLayout Padding="16" Spacing="16" HorizontalOptions="Center">
+        <!-- Top Buttons -->
+        <Grid ColumnDefinitions="*,*">
+            <Button Text="Notifications"
+                    BackgroundColor="{DynamicResource PrimaryColor}"
+                    TextColor="{DynamicResource PrimaryForegroundColor}"
+                    CornerRadius="8"
+                    HeightRequest="40"
+                    HorizontalOptions="Fill" />
+            <Button Text="Messages"
+                    TextColor="{DynamicResource MutedForegroundColor}"
+                    BackgroundColor="Transparent"
+                    HeightRequest="40"
+                    HorizontalOptions="Fill"
+                    Grid.Column="1" />
+        </Grid>
+
+        <!-- Notifications Section -->
+        <StackLayout BackgroundColor="{DynamicResource CardBackgroundColor}"
+                     Padding="16"
+                     Spacing="8">
+            <StackLayout Orientation="Horizontal" Spacing="8">
+                <Image Source="notification_icon.png" WidthRequest="24" HeightRequest="24" />
+                <Label Text="3 new Rental Requests"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource ForegroundColor}" />
+            </StackLayout>
+            <Label Text="20 minutes ago"
+                   FontSize="Small"
+                   TextColor="{DynamicResource MutedForegroundColor}" />
+        </StackLayout>
+
+        <!-- Views Section -->
+        <StackLayout BackgroundColor="{DynamicResource CardBackgroundColor}"
+                     Padding="16"
+                     Spacing="8">
+            <StackLayout Orientation="Horizontal" Spacing="8">
+                <Image Source="notification_icon.png" WidthRequest="24" HeightRequest="24" />
+                <Label Text="Your listing has 23 new views"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource ForegroundColor}" />
+            </StackLayout>
+            <Label Text="20 minutes ago"
+                   FontSize="Small"
+                   TextColor="{DynamicResource MutedForegroundColor}" />
+        </StackLayout>
+
+        <!-- Bottom Navigation -->
+        <Grid ColumnDefinitions="*,*,*,*,*"
+              VerticalOptions="EndAndExpand">
+            <Button Text="Home"
+                    TextColor="{DynamicResource MutedForegroundColor}"
+                    BackgroundColor="Transparent" />
+            <Button Text="Post"
+                    TextColor="{DynamicResource MutedForegroundColor}"
+                    BackgroundColor="Transparent"
+                    Grid.Column="1" />
+            <Button Text="Activity"
+                    TextColor="{DynamicResource PrimaryColor}"
+                    BackgroundColor="Transparent"
+                    Grid.Column="2" />
+            <Button Text="Manage"
+                    TextColor="{DynamicResource MutedForegroundColor}"
+                    BackgroundColor="Transparent"
+                    Grid.Column="3" />
+            <Button Text="Profile"
+                    TextColor="{DynamicResource MutedForegroundColor}"
+                    BackgroundColor="Transparent"
+                    Grid.Column="4" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

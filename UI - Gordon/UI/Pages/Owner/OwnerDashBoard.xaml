@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Pages.Owner.OwnerDashBoard"
+             BackgroundColor="{DynamicResource BackgroundColor}">
+    <ContentPage.Resources>
+        <!-- Define colors for light/dark themes -->
+        <ResourceDictionary>
+            <Color x:Key="BackgroundColor">#FFFFFF</Color>
+            <Color x:Key="ForegroundColor">#000000</Color>
+            <Color x:Key="PrimaryColor">#0A0A0A</Color>
+            <Color x:Key="PrimaryForegroundColor">#FFFFFF</Color>
+            <Color x:Key="MutedColor">#F3F3F3</Color>
+            <Color x:Key="MutedForegroundColor">#767676</Color>
+            <Color x:Key="CardColor">#FFFFFF</Color>
+            <Color x:Key="CardForegroundColor">#000000</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="16" Spacing="16">
+            <!-- Welcome Header -->
+            <Label Text="Welcome back,"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="{DynamicResource ForegroundColor}" />
+            <Label Text="Lucy,"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="{DynamicResource PrimaryColor}" />
+
+            <!-- No. of Listings Section -->
+            <StackLayout Spacing="8">
+                <Label Text="No. of Listings"
+                       FontSize="16"
+                       TextColor="{DynamicResource ForegroundColor}" />
+                <Frame BackgroundColor="{DynamicResource PrimaryColor}"
+                       CornerRadius="8"
+                       Padding="16"
+                       HasShadow="True">
+                    <Label Text="3"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           TextColor="{DynamicResource PrimaryForegroundColor}" />
+                </Frame>
+            </StackLayout>
+
+            <!-- Engagements Section -->
+            <StackLayout Spacing="8">
+                <Label Text="Engagements"
+                       FontSize="16"
+                       TextColor="{DynamicResource ForegroundColor}" />
+                <Frame BackgroundColor="{DynamicResource MutedColor}"
+                       CornerRadius="8"
+                       Padding="16"
+                       HasShadow="True">
+                    <Label Text="23 views per day"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           TextColor="{DynamicResource MutedForegroundColor}" />
+                </Frame>
+            </StackLayout>
+
+            <!-- Popular Listing Section -->
+            <StackLayout Spacing="8">
+                <Label Text="Popular Listing"
+                       FontSize="16"
+                       TextColor="{DynamicResource ForegroundColor}" />
+                <Grid>
+                    <!-- Image Section -->
+                    <Image Source="ggle.png"
+                           Aspect="AspectFill"
+                           HeightRequest="200" />
+                    <!-- Overlay Text -->
+                    <Frame BackgroundColor="{DynamicResource CardColor}"
+                           CornerRadius="4"
+                           Padding="8"
+                           HasShadow="True"
+                           VerticalOptions="End"
+                           HorizontalOptions="Start"
+                           Margin="8">
+                        <StackLayout>
+                            <Label Text="EG Rusiana"
+                                   FontAttributes="Bold"
+                                   TextColor="{DynamicResource CardForegroundColor}" />
+                            <Label Text="2343 visits"
+                                   TextColor="{DynamicResource CardForegroundColor}" />
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
