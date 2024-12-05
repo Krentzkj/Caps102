@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "56Z5i9BxpxIy6VerfTaYATiRpWobaZM4FdKR+Q8WdzI=",
+  "Source": "Asp.net Core Identity with Jwt in Web API",
+  "BasePath": "_content/Asp.net Core Identity with Jwt in Web API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

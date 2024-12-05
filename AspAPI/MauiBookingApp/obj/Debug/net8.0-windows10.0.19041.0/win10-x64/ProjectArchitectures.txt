@@ -1,0 +1,1 @@
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\MauiBookingApp.csproj;x64

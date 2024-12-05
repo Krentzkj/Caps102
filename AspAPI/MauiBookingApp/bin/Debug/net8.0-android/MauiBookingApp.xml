@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiBookingApp</name>
+    </assembly>
+    <members>
+        <member name="T:MauiBookingApp.ViewModels.LoginAndSignupViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.RegisterModel">
+            <inheritdoc cref="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.registerModel"/>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.LoginModel">
+            <inheritdoc cref="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.loginModel"/>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.EmailConfirmation">
+            <inheritdoc cref="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.emailConfirmation"/>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.UserName">
+            <inheritdoc cref="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.userName"/>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.IsAuthenticated">
+            <inheritdoc cref="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.isAuthenticated"/>
+        </member>
+        <member name="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiBookingApp.ViewModels.LoginAndSignupViewModel.Register"/>.</summary>
+        </member>
+        <member name="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiBookingApp.ViewModels.LoginAndSignupViewModel.Login"/>.</summary>
+        </member>
+        <member name="F:MauiBookingApp.ViewModels.LoginAndSignupViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:MauiBookingApp.ViewModels.LoginAndSignupViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiBookingApp.ViewModels.LoginAndSignupViewModel.Logout"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RegisterModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RegisterModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoginModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoginModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmailConfirmation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmailConfirmation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsAuthenticated">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsAuthenticated" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RegisterModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RegisterModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoginModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoginModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmailConfirmation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmailConfirmation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsAuthenticated">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsAuthenticated" generated properties.</summary>
+        </member>
+    </members>
+</doc>
