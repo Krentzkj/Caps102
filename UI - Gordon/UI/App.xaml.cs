@@ -1,4 +1,5 @@
 ﻿using UI.Pages;
+using UI.Pages.Owner;
 
 namespace UI
 {
@@ -8,7 +9,7 @@ namespace UI
         {
             InitializeComponent();
 
-            MainPage = new Pages.Owner.ManageRequest();
+            MainPage = new Pages.Owner.ManageEstablishment();
            
         }
     }

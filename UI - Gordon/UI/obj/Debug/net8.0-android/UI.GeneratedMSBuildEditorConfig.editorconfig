@@ -16,6 +16,8 @@ build_property.RootNamespace = UI
 build_property.ProjectDir = C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
 [C:/Users/Krentz/Desktop/pullpush/Caps102/UI - Gordon/UI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -94,6 +96,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Pages.Owner.OwnerDashBoard.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Owner\OwnerDashBoard.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Owner\OwnerDashBoard.xaml
+
+[C:/Users/Krentz/Desktop/pullpush/Caps102/UI - Gordon/UI/Pages/Owner/UploadPhoto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UI.Pages.Owner.UploadPhoto.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Owner\UploadPhoto.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Owner\UploadPhoto.xaml
 
 [C:/Users/Krentz/Desktop/pullpush/Caps102/UI - Gordon/UI/Pages/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

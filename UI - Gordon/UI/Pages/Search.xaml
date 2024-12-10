@@ -70,7 +70,41 @@
                         <Label Text="PHP 2500/month" TextColor="#6B7280"/>
                     </StackLayout>
                 </Frame>
+                            <HorizontalStackLayout Margin="-10 ,10,0,10" Spacing="8" HorizontalOptions="Center" Padding="10">
+                                <Button WidthRequest="60"
+                 Text="Home" 
+                 FontSize="10"
+                  BackgroundColor="#E5E5E5" 
+                 TextColor="#030303" 
+                 CornerRadius="8" />
+                                <Button WidthRequest="60"
+                 Text="Map" 
+                 FontSize="10" 
+                   BackgroundColor="#E5E5E5" 
+                 TextColor="#030303" 
+                 CornerRadius="8" />
+                                <Button WidthRequest="60"
+                 Text="Search" 
+                 FontSize="10" 
+                  BackgroundColor="#E5E5E5" 
+                 TextColor="#030303" 
+                 CornerRadius="8" />
+                                <Button WidthRequest="70"
+                 Text="Activity" 
+                 FontSize="10" 
+                   BackgroundColor="#E5E5E5" 
+                 TextColor="#030303" 
+                 CornerRadius="8" />
+                                <Button
+                    WidthRequest="60"
+                 Text="Profile" 
+                 FontSize="10" 
+                  BackgroundColor="#E5E5E5" 
+                 TextColor="#030303" 
+                 CornerRadius="8" />
+                            </HorizontalStackLayout>
             </StackLayout>
         </StackLayout>
     </ScrollView>
+    
 </ContentPage>

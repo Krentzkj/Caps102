@@ -363,3 +363,12 @@ C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows
 C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash_can.scale-100.png
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Http.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll
