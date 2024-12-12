@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBookingApp.Pages.Tenant.OwnerDashboardPage"
+             Title="OwnerDashboardPage">
+
+    <ContentPage Title="Home" IconImageSource="home_logo.png">
+
+        <FlexLayout Direction="Column">
+            <ListView HasUnevenRows="True" FlexLayout.Grow="1" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <VerticalStackLayout>
+                                <Label Text="Boarding House Name"/>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Price"/>
+                                    <Label Grid.Column="2" Text="Location" FontAttributes="Bold" TextColor="Red"/>
+                                </Grid>
+                            </VerticalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </FlexLayout>
+
+    </ContentPage>
+    <ContentPage Title="Manage" IconImageSource="manage_logo.png" >
+        <Label Text="Manage" />
+    </ContentPage>
+    <ContentPage Title="Post" IconImageSource="add_logo.png">
+        <Label Text="Post"/>
+    </ContentPage>
+    <ContentPage Title="Activity" IconImageSource="activity_logo.png">
+        <Label Text="Activity"/>
+    </ContentPage>
+    <ContentPage Title="Profile" IconImageSource="profile_logo.png">
+        <Label Text="Profile" />
+    </ContentPage>
+</TabbedPage>

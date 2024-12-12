@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBookingApp.Pages.TenantPage.RolePage"
+             Title="RolePage">
+
+    <VerticalStackLayout>
+        <Label Text="choose role" Margin="0,0,0,10"/>
+        <Label Text="Email Address" />
+        <Entry x:Name="txtEmailAddress" Margin="0,0,0,5"></Entry>
+        <Label Text="Role" />
+        <Entry x:Name="txtRoles" Margin="0,0,0,5"></Entry>
+        <Button Text="Add Roles" x:Name="btnAddRoles" Clicked="btnAddRoles_Clicked" TextColor="White" Background="Black" CornerRadius="0" Margin="0,0,0,35"></Button>
+    </VerticalStackLayout>
+</ContentPage>

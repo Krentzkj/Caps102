@@ -44,7 +44,7 @@ namespace AspJWTAuth.Migrations
 
                     b.HasKey("BlogId");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 
             modelBuilder.Entity("AspJWTAuth.Models.BoardingHouse", b =>
@@ -62,7 +62,7 @@ namespace AspJWTAuth.Migrations
                         .HasColumnType("bit");
 
                     b.Property<decimal?>("PricePerMonth")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<int?>("RoomNumber")
                         .HasColumnType("int");
@@ -71,14 +71,13 @@ namespace AspJWTAuth.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("TenantId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("BoardinghouseId");
 
                     b.HasIndex("TenantId");
 
-                    b.ToTable("BoardingHouses");
+                    b.ToTable("BoardingHouses", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -304,8 +303,7 @@ namespace AspJWTAuth.Migrations
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Tenant")
                         .WithMany()
                         .HasForeignKey("TenantId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Tenant");
                 });

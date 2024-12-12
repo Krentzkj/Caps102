@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBookingApp.Pages.TenantPage.NewPage2"
+             Title="NewPage2">
+
+    <FlexLayout Direction="Column">
+        <StackLayout HorizontalOptions="Center">
+            <Label Text="Your Listings" 
+               FontSize="24" 
+               FontAttributes="Bold" 
+               TextColor="Black" />
+            <Label Text="You have (3) listings" 
+               TextColor="Gray" />
+        </StackLayout>
+        <ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Spacing="20">
+                            <!-- First Listing -->
+                            <Frame CornerRadius="10" Padding="0" HasShadow="True" BorderColor="LightGray">
+                                <StackLayout>
+                                    <Image Source="habha_logo" 
+                                       HeightRequest="150" 
+                                       Aspect="AspectFill" />
+                                    <StackLayout Padding="10">
+                                        <Label Text="Kalista Room" 
+                                           FontSize="16" 
+                                           FontAttributes="Bold" 
+                                           TextColor="Black" />
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" Spacing="10">
+                                            <ImageButton Source="https://openui.fly.dev/openui/edit.svg?text=✏️" 
+                                                     HeightRequest="30" 
+                                                     WidthRequest="30" 
+                                                     BackgroundColor="Transparent" />
+                                            <ImageButton Source="https://openui.fly.dev/openui/trash.svg?text=🗑️" 
+                                                 HeightRequest="30" 
+                                                 WidthRequest="30" 
+                                                 BackgroundColor="Transparent" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </FlexLayout>
+</ContentPage>

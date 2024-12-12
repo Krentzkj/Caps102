@@ -275,3 +275,6 @@ C:\ASP Web API Projects\AspIdentityMinimalApi\AspJWTAuth\obj\Debug\net8.0\refint
 C:\ASP Web API Projects\AspIdentityMinimalApi\AspJWTAuth\obj\Debug\net8.0\AspJWTAuth.pdb
 C:\ASP Web API Projects\AspIdentityMinimalApi\AspJWTAuth\obj\Debug\net8.0\AspJWTAuth.genruntimeconfig.cache
 C:\ASP Web API Projects\AspIdentityMinimalApi\AspJWTAuth\obj\Debug\net8.0\ref\AspJWTAuth.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\AspJWTAuth\bin\Debug\net8.0\Scrutor.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\AspJWTAuth\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\AspJWTAuth\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

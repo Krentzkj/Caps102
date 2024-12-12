@@ -72,5 +72,9 @@
     <Build Include="dbo\Tables\AspNetUserRoles.sql" />
     <Build Include="dbo\Tables\AspNetUserTokens.sql" />
     <Build Include="dbo\Tables\BoardingHouses.sql" />
+    <Build Include="dbo\Tables\Amenities.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BookingDb.publish.xml" />
   </ItemGroup>
 </Project>

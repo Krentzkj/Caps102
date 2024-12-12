@@ -1,0 +1,18 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Amenity] (Table)
+       [dbo].[BoardingHouseAmenity] (Table)
+       [dbo].[FK_BoardingHouse_ToTable] (Foreign Key)
+       [dbo].[FK_BoardingHouseAmenity_ToTable_1] (Foreign Key)
+
+** Supporting actions

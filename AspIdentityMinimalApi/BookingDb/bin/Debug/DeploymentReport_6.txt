@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Amenities].[BoardinghouseId] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_Amenities_ToBoardingHouse] (Foreign Key)
+     Alter
+       [dbo].[Amenities] (Table)
+     Create
+       [dbo].[Amenities].[IX_BoardingHouses_AmenityId] (Index)
+       [dbo].[FK_Amenities_ToBoardingHouse] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[Amenities].[BoardinghouseId] is being dropped, data loss could occur.
+

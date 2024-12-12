@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.net Core Identity with 
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookingDb", "BookingDb\BookingDb.sqlproj", "{63961E73-B843-4398-B07D-E33C6372E246}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.ApiClient", "App.ApiClient\App.ApiClient.csproj", "{3F16F606-CE95-46C1-986F-20ADAF0F848E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{63961E73-B843-4398-B07D-E33C6372E246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63961E73-B843-4398-B07D-E33C6372E246}.Release|Any CPU.Build.0 = Release|Any CPU
 		{63961E73-B843-4398-B07D-E33C6372E246}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3F16F606-CE95-46C1-986F-20ADAF0F848E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F16F606-CE95-46C1-986F-20ADAF0F848E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F16F606-CE95-46C1-986F-20ADAF0F848E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F16F606-CE95-46C1-986F-20ADAF0F848E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{8A3ABFE9-DCDA-47F9-B348-F6F4E09A8099} = {3AB4DCF9-8AF8-4286-A8EE-7E46C5652028}
 		{AAA8065E-4780-4C36-98CE-CCA71A897524} = {7D027509-32C5-42E9-A9F7-90789080D850}
 		{63961E73-B843-4398-B07D-E33C6372E246} = {6292A895-FD75-44F2-8807-619183DFAFF2}
+		{3F16F606-CE95-46C1-986F-20ADAF0F848E} = {6292A895-FD75-44F2-8807-619183DFAFF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F398A0DA-40E2-4D46-A41E-A2141F6A8D0F}

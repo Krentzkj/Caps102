@@ -1,6 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using MauiBookingApp.Models;
+using MauiBookingApp.Models.Authentication;
+using MauiBookingApp.Pages;
+using MauiBookingApp.Pages.TenantPage;
 using MauiBookingApp.Services;
 using System;
 using System.Collections.Generic;
@@ -11,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace MauiBookingApp.ViewModels
 {
-	public partial class LoginAndSignupViewModel : ObservableObject
+    public partial class LoginAndSignupViewModel : ObservableObject
 	{
 		[ObservableProperty]
 		private RegisterModel registerModel;
@@ -25,6 +27,9 @@ namespace MauiBookingApp.ViewModels
 		[ObservableProperty]
 		private bool isAuthenticated;
 
+		[ObservableProperty]
+		private bool loader;
+
 		private readonly ClientService clientService;
 		public LoginAndSignupViewModel(ClientService clientService)
 		{
@@ -32,6 +37,7 @@ namespace MauiBookingApp.ViewModels
 			EmailConfirmation = new();
 			RegisterModel = new();
 			LoginModel = new();
+			Loader = false;
 			IsAuthenticated = false;
 			GetUserNameFromSecuredStorage();
 		}
@@ -40,23 +46,39 @@ namespace MauiBookingApp.ViewModels
 		private async Task Register()
 		{
 			await clientService.Register(RegisterModel);
-			await clientService.ConfirmEmail(EmailConfirmation);
-		}
+			/*await Shell.Current.GoToAsync(nameof(AssignRolePage));*/ //AssignRolePage
+            //await clientService.ConfirmEmail(EmailConfirmation);
+        }
 
 		[RelayCommand]
 		private async Task Login()
 		{
 			await clientService.Login(LoginModel);
-			GetUserNameFromSecuredStorage();
+            await Shell.Current.GoToAsync(nameof(AssignRolePage));
+            GetUserNameFromSecuredStorage();
 		}
 
 		[RelayCommand]
+		private async Task GotoLoginPage()
+		{
+			await Shell.Current.GoToAsync(nameof(MainPage));
+		}
+
+        [RelayCommand]
+        private async Task GotoSignUpPage()
+        {
+            await Shell.Current.GoToAsync(nameof(SignUpPage));
+        }
+
+        [RelayCommand]
 		private async Task Logout()
 		{
-			SecureStorage.Default.Remove("Authentication");
+			Loader = true;
+            SecureStorage.Default.Remove("Authentication");
 			IsAuthenticated = false;
 			UserName = "Guest";
-			await Shell.Current.GoToAsync("..");
+			Loader = false;
+            await Shell.Current.GoToAsync("..");
 		}
 
 		private async void GetUserNameFromSecuredStorage()

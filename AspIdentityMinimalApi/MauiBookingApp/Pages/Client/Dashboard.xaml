@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBookingApp.Pages.Tenant.Dashboard">
+
+
+    <ContentPage Title="Home" IconImageSource="home_logo.png">
+        <CarouselView>
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="10" Padding="0" HasShadow="True" BorderColor="LightGray" BackgroundColor="White" Margin="10">
+                        <StackLayout>
+                            <Image Source="your_logo.png" 
+                           HeightRequest="150" 
+                           Aspect="AspectFill" />
+                            <StackLayout Padding="10">
+                                <Label Text="Frame"
+                                       FontSize="16" 
+                                       FontAttributes="Bold" 
+                                       TextColor="Black" />
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="End" Spacing="10">
+                                    <ImageButton Source="https://openui.fly.dev/openui/edit.svg?text=✏️" 
+                                         HeightRequest="30" 
+                                         WidthRequest="30" 
+                                         BackgroundColor="Transparent" />
+                                    <ImageButton Source="https://openui.fly.dev/openui/trash.svg?text=🗑️" 
+                                         HeightRequest="30" 
+                                         WidthRequest="30" 
+                                         BackgroundColor="Transparent" />
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </ContentPage>
+    <ContentPage Title="Map" IconImageSource="map_logo.png">
+        <Label Text="Map" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Search" IconImageSource="search_logo.png">
+        <Label Text="Search" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Activity" IconImageSource="activity_logo.png" >
+        <Label Text="Activity" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Profile" IconImageSource="profile_logo.png">
+        <Label Text="Profile" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+    </ContentPage>
+</TabbedPage>

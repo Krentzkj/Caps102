@@ -1,12 +1,16 @@
-﻿namespace MauiBookingApp
+﻿using MauiBookingApp.Pages.Tenant;
+using MauiBookingApp.Pages.TenantPage;
+
+namespace MauiBookingApp
 {
 	public partial class App : Application
 	{
-		public App()
+		public App(OwnerDashboardPage vm)
 		{
 			InitializeComponent();
 
-			MainPage = new AppShell();
-		}
+			MainPage = vm;//new AppShell();
+
+        }
 	}
 }

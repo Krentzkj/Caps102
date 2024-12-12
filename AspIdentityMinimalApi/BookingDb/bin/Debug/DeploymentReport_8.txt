@@ -1,0 +1,38 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Amenities].[AmenityBhId] is being dropped, data loss could occur.
+       The column [dbo].[Amenities].[AmenityName] is being dropped, data loss could occur.
+       The column [dbo].[Amenities].[AmenityPrice] is being dropped, data loss could occur.
+       The column [dbo].[Amenities].[BoardinghouseId] on table [dbo].[Amenities] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[Amenities].[Name] on table [dbo].[Amenities] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Drop
+       [dbo].[Amenities].[IX_BoardingHouses_AmenityId] (Index)
+       [dbo].[FK_Amenities_ToBoardingHouse] (Foreign Key)
+     Alter
+       [dbo].[Amenities] (Table)
+     Create
+       [dbo].[Amenities].[IX_Amenities_BoardinghouseId] (Index)
+       [dbo].[FK_Amenities_BoardingHouses_BoardinghouseId] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[Amenities].[AmenityBhId] is being dropped, data loss could occur.
+The column [dbo].[Amenities].[AmenityName] is being dropped, data loss could occur.
+The column [dbo].[Amenities].[AmenityPrice] is being dropped, data loss could occur.
+The column [dbo].[Amenities].[BoardinghouseId] on table [dbo].[Amenities] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Amenities].[Name] on table [dbo].[Amenities] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

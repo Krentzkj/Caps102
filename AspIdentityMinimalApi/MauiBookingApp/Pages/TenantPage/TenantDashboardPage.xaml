@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBookingApp.Pages.TenantPage.TenantDashboardPage"
+             Title="TenantDashboardPage">
+
+
+    <VerticalStackLayout>
+        <Entry x:Name="txtRoomNumber" Placeholder="Room Number"/>
+        <Entry x:Name="txtRoomSize" Placeholder="Room Size"/>
+        <Entry x:Name="txtPricePerMonth" Placeholder="Price"/>
+        <Entry x:Name="txtIsAvailble" Placeholder="IsAvailble"/>
+        <!--<Entry x:Name="txtIsAvailble" Placeholder="IsAvailble"/>-->
+        <Label x:Name="txtUsername" /> 
+        <Label TextColor="CadetBlue" FontAttributes="Bold" Text="{Binding UserName, StringFormat='Hello {0}'}" Margin="0,0,0,0" HorizontalOptions="End"></Label>
+        <Entry x:Name="txtDescriptions" Placeholder="Descriptions"/>
+
+        <!--<Button x:Name="btnAdd" Text="Save" Margin="0,20" Clicked="btnAdd_Clicked"/>
+        <Button x:Name="btnCancel" Text="Cancel" Clicked="btnCancel_Clicked"/>-->
+    </VerticalStackLayout>
+</ContentPage>

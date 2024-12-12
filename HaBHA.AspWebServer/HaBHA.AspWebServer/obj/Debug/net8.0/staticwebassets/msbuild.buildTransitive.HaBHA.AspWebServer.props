@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HaBHA.AspWebServer.props" />
+</Project>

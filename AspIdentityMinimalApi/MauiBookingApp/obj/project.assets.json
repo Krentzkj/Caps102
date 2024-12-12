@@ -594,6 +594,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -2354,6 +2370,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -2950,6 +2981,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -4710,6 +4757,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -5306,6 +5368,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -7066,6 +7144,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -7662,6 +7755,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -9422,6 +9531,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -10018,6 +10142,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -11778,6 +11918,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -12374,6 +12529,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -14134,6 +14305,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -14730,6 +14916,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -16490,6 +16692,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -17086,6 +17303,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -18847,6 +19080,21 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-ios17.0": {
@@ -19416,6 +19664,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -19987,6 +20266,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-ios17.0/android-arm64": {
@@ -20556,6 +20866,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -21127,6 +21468,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-ios17.0/android-x86": {
@@ -21696,6 +22068,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -22267,6 +22670,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-ios17.0/maccatalyst-x64": {
@@ -22836,6 +23270,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -23407,6 +23872,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0": {
@@ -23976,6 +24472,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -24547,6 +25074,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/android-arm64": {
@@ -25116,6 +25674,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -25687,6 +26276,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/android-x86": {
@@ -26256,6 +26876,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -26827,6 +27478,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/maccatalyst-x64": {
@@ -27397,6 +28079,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/win10-x64": {
@@ -27966,6 +28679,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -28680,6 +29424,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -29364,6 +30139,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -30050,6 +30856,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
@@ -30734,6 +31571,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -31420,6 +32288,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
@@ -32105,6 +33004,37 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
@@ -32789,6 +33719,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     },
@@ -33480,6 +34441,37 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "App.ApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Net.Http.Json": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.ApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.ApiClient.dll": {}
         }
       }
     }
@@ -35808,6 +36800,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Net.Http.Json/8.0.1": {
+      "sha512": "F423ZLoJFYg1s6iA+Y7BLflVKjEK5XEA2+Z9CHbxJEUtS3+R5pgnFN499QzriRjYpOu6kS2Crd2YBkOFDHrblg==",
+      "type": "package",
+      "path": "system.net.http.json/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Net.Http.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "lib/net462/System.Net.Http.Json.dll",
+        "lib/net462/System.Net.Http.Json.xml",
+        "lib/net6.0/System.Net.Http.Json.dll",
+        "lib/net6.0/System.Net.Http.Json.xml",
+        "lib/net7.0/System.Net.Http.Json.dll",
+        "lib/net7.0/System.Net.Http.Json.xml",
+        "lib/net8.0/System.Net.Http.Json.dll",
+        "lib/net8.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.8.0.1.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Xamarin.Android.Glide/4.15.1.2": {
       "sha512": "DcekP+BXm4jFMV7zjHEltj01uiXcItq1kjGa79pj/Vx1rk3Ac2VXdmwGw06HXDP8n2XZsDh8dAoSI48G4KODRA==",
       "type": "package",
@@ -37844,10 +38866,16 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "App.ApiClient/1.0.0": {
+      "type": "project",
+      "path": "../App.ApiClient/App.ApiClient.csproj",
+      "msbuildProject": "../App.ApiClient/App.ApiClient.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "App.ApiClient >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Extensions.Http >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
@@ -37856,6 +38884,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
     "net8.0-ios17.0": [
+      "App.ApiClient >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Extensions.Http >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
@@ -37864,6 +38893,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
     "net8.0-maccatalyst17.0": [
+      "App.ApiClient >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Extensions.Http >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
@@ -37872,6 +38902,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
     "net8.0-windows10.0.19041": [
+      "App.ApiClient >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Extensions.Http >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
@@ -37915,19 +38946,35 @@
       "frameworks": {
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+              "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+            }
+          }
         },
         "net8.0-ios17.0": {
           "targetAlias": "net8.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+              "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+            }
+          }
         },
         "net8.0-maccatalyst17.0": {
           "targetAlias": "net8.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+              "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+            }
+          }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+              "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

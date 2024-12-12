@@ -29,11 +29,77 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.AppShell.xa
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/AssignRolePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.AssignRolePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AssignRolePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AssignRolePage.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/Client/Dashboard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.Client.Dashboard.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Client\Dashboard.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Client\Dashboard.xaml
+
 [C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/MauiaLoader.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.MauiaLoader.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MauiaLoader.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MauiaLoader.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/SignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.SignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SignUpPage.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/TenantPage/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.TenantPage.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TenantPage\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TenantPage\NewPage1.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/TenantPage/NewPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.TenantPage.NewPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TenantPage\NewPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TenantPage\NewPage2.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/TenantPage/RolePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.TenantPage.RolePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TenantPage\RolePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TenantPage\RolePage.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/TenantPage/TenantDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.TenantPage.TenantDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TenantPage\TenantDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TenantPage\TenantDashboardPage.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/TenantPage/TenantMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.TenantPage.TenantMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TenantPage\TenantMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TenantPage\TenantMainPage.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/TenantPage/TestPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.TenantPage.TestPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TenantPage\TestPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TenantPage\TestPage.xaml
+
+[C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Pages/Tenant/OwnerDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiBookingApp.Pages.Tenant.OwnerDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Tenant\OwnerDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Tenant\OwnerDashboardPage.xaml
 
 [C:/ASP Web API Projects/AspIdentityMinimalApi/MauiBookingApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

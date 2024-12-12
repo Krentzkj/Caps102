@@ -22,6 +22,10 @@ C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-an
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\habha_logo.jpg
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\facebook_logo.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\trash_can.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\ggle.png
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
@@ -106,6 +110,8 @@ C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-an
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.AssemblyInfoInputs.cache
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.AssemblyInfo.cs
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.csproj.CoreCompileInputs.cache
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.pdb
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\MauiBookingApp.runtimeconfig.json
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\MauiBookingApp.dll
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\MauiBookingApp.pdb
@@ -114,9 +120,10 @@ C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-an
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\com.companyname.mauibookingapp-Signed.aab
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\com.companyname.mauibookingapp-Signed.apk
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\com.companyname.mauibookingapp-Signed.apk.idsig
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\App.ApiClient.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-android\App.ApiClient.pdb
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\XamlC.stamp
-C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.dll
-C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.pdb
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.csproj.CopyComplete
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.genruntimeconfig.cache
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\MauiBookingApp.runtimeconfig.json.bin
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\android\bin\com.companyname.mauibookingapp.apk
@@ -126,6 +133,8 @@ C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-an
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\res\values\colors.xml
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\uploadflags.txt
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resolvedassemblies.hash
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\android\assets\App.ApiClient.dll
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\android\assets\App.ApiClient.pdb
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
@@ -1073,3 +1082,10 @@ C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-an
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\home_logo.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\map_logo.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\search_logo.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\activity_logo.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\profile_logo.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\add_logo.png
+C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-android\resizetizer\r\drawable\manage_logo.png

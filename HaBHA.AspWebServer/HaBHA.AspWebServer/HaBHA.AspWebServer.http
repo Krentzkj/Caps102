@@ -1,0 +1,6 @@
+@HaBHA.AspWebServer_HostAddress = http://localhost:5042
+
+GET {{HaBHA.AspWebServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

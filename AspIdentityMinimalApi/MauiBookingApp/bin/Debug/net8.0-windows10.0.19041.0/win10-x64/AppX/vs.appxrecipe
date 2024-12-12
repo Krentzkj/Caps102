@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-01T01:37:47.818</Modified>
+      <Modified>2024-12-11T12:40:39.431</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-01T01:29:38.884</Modified>
+      <Modified>2024-12-11T12:17:34.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiBookingApp.runtimeconfig.json">
       <PackagePath>MauiBookingApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-01T01:33:08.226</Modified>
+      <Modified>2024-12-11T12:27:50.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiBookingApp.dll">
       <PackagePath>MauiBookingApp.dll</PackagePath>
-      <Modified>2024-12-01T01:37:46.674</Modified>
+      <Modified>2024-12-11T12:40:38.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiBookingApp.exe</PackagePath>
-      <Modified>2024-12-01T01:37:46.722</Modified>
+      <Modified>2024-12-11T12:40:38.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:32.849</Modified>
+      <Modified>2024-12-11T12:17:29.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:32.872</Modified>
+      <Modified>2024-12-11T12:17:29.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:32.906</Modified>
+      <Modified>2024-12-11T12:17:29.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:32.968</Modified>
+      <Modified>2024-12-11T12:17:29.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.180</Modified>
+      <Modified>2024-12-11T12:17:29.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -81,213 +81,257 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-12-01T00:47:49.493</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\activity_logo.scale-100.png">
+      <PackagePath>activity_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-11T11:33:21.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_logo.scale-100.png">
+      <PackagePath>add_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-11T12:14:24.327</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-12-01T01:29:33.320</Modified>
+      <Modified>2024-12-11T12:17:29.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.260</Modified>
+      <Modified>2024-12-11T12:17:30.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.300</Modified>
+      <Modified>2024-12-11T12:17:30.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.337</Modified>
+      <Modified>2024-12-11T12:17:30.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.393</Modified>
+      <Modified>2024-12-11T12:17:30.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.607</Modified>
+      <Modified>2024-12-11T12:17:30.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.685</Modified>
+      <Modified>2024-12-11T12:17:29.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.696</Modified>
+      <Modified>2024-12-11T12:17:29.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.742</Modified>
+      <Modified>2024-12-11T12:17:29.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.706</Modified>
+      <Modified>2024-12-11T12:17:29.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.718</Modified>
+      <Modified>2024-12-11T12:17:29.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.596</Modified>
+      <Modified>2024-12-11T12:17:29.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.616</Modified>
+      <Modified>2024-12-11T12:17:29.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.673</Modified>
+      <Modified>2024-12-11T12:17:29.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.627</Modified>
+      <Modified>2024-12-11T12:17:29.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.640</Modified>
+      <Modified>2024-12-11T12:17:29.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.354</Modified>
+      <Modified>2024-12-11T12:17:29.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.372</Modified>
+      <Modified>2024-12-11T12:17:29.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.406</Modified>
+      <Modified>2024-12-11T12:17:29.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.431</Modified>
+      <Modified>2024-12-11T12:17:29.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.468</Modified>
+      <Modified>2024-12-11T12:17:29.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.488</Modified>
+      <Modified>2024-12-11T12:17:29.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.508</Modified>
+      <Modified>2024-12-11T12:17:29.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.583</Modified>
+      <Modified>2024-12-11T12:17:29.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.533</Modified>
+      <Modified>2024-12-11T12:17:29.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.551</Modified>
+      <Modified>2024-12-11T12:17:29.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.891</Modified>
+      <Modified>2024-12-11T12:17:29.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.908</Modified>
+      <Modified>2024-12-11T12:17:29.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.926</Modified>
+      <Modified>2024-12-11T12:17:29.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.957</Modified>
+      <Modified>2024-12-11T12:17:29.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.013</Modified>
+      <Modified>2024-12-11T12:17:29.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.812</Modified>
+      <Modified>2024-12-11T12:17:29.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.822</Modified>
+      <Modified>2024-12-11T12:17:29.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.833</Modified>
+      <Modified>2024-12-11T12:17:29.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.849</Modified>
+      <Modified>2024-12-11T12:17:29.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.876</Modified>
+      <Modified>2024-12-11T12:17:29.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.751</Modified>
+      <Modified>2024-12-11T12:17:29.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.763</Modified>
+      <Modified>2024-12-11T12:17:29.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.774</Modified>
+      <Modified>2024-12-11T12:17:29.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.785</Modified>
+      <Modified>2024-12-11T12:17:29.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.801</Modified>
+      <Modified>2024-12-11T12:17:29.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.033</Modified>
+      <Modified>2024-12-11T12:17:29.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.058</Modified>
+      <Modified>2024-12-11T12:17:29.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.084</Modified>
+      <Modified>2024-12-11T12:17:29.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.123</Modified>
+      <Modified>2024-12-11T12:17:29.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:34.228</Modified>
+      <Modified>2024-12-11T12:17:30.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.323</Modified>
+      <Modified>2024-12-11T12:17:29.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.355</Modified>
+      <Modified>2024-12-11T12:17:29.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.406</Modified>
+      <Modified>2024-12-11T12:17:29.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.489</Modified>
+      <Modified>2024-12-11T12:17:29.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-12-01T01:29:33.652</Modified>
+      <Modified>2024-12-11T12:17:29.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_logo.scale-100.png">
+      <PackagePath>facebook_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-10T08:35:56.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ggle.scale-100.png">
+      <PackagePath>ggle.scale-100.png</PackagePath>
+      <Modified>2024-12-10T08:35:56.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\habha_logo.scale-100.jpg">
+      <PackagePath>habha_logo.scale-100.jpg</PackagePath>
+      <Modified>2024-12-10T08:35:56.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_logo.scale-100.png">
+      <PackagePath>home_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-11T10:45:44.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\manage_logo.scale-100.png">
+      <PackagePath>manage_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-11T12:16:00.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\map_logo.scale-100.png">
+      <PackagePath>map_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-11T11:30:00.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile_logo.scale-100.png">
+      <PackagePath>profile_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-11T11:33:46.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_logo.scale-100.png">
+      <PackagePath>search_logo.scale-100.png</PackagePath>
+      <Modified>2024-12-11T11:31:55.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash_can.scale-100.png">
+      <PackagePath>trash_can.scale-100.png</PackagePath>
+      <Modified>2024-12-10T08:35:56.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\MauiBookingApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiBookingApp.deps.json">
       <PackagePath>MauiBookingApp.deps.json</PackagePath>
-      <Modified>2024-12-01T01:33:08.221</Modified>
+      <Modified>2024-12-11T12:27:50.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.38\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -453,6 +497,10 @@
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
       <Modified>2024-10-29T02:47:28.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\system.net.http.json\8.0.1\lib\net8.0\System.Net.Http.Json.dll">
+      <PackagePath>System.Net.Http.Json.dll</PackagePath>
+      <Modified>2024-09-16T23:08:42.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
       <Modified>2023-11-07T20:44:30.000</Modified>
@@ -596,6 +644,10 @@
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2023-04-28T12:58:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\ASP Web API Projects\AspIdentityMinimalApi\App.ApiClient\bin\Debug\netstandard2.1\App.ApiClient.dll">
+      <PackagePath>App.ApiClient.dll</PackagePath>
+      <Modified>2024-12-11T12:17:06.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\63966\.nuget\packages\microsoft.maui.controls.compatibility\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
