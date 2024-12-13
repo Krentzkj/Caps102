@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaBHA.AspWebServer", "HaBHA.AspWebServer\HaBHA.AspWebServer.csproj", "{EE3F7928-C02D-4712-9E28-8A0F3E27DBBC}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HaBHADb", "HaBHADb\HaBHADb.sqlproj", "{55363BAA-BA57-4915-A077-95B2355C44D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaBHA.MauiAppBooking", "HaBHA.MauiAppBooking\HaBHA.MauiAppBooking.csproj", "{6B88E5C6-2568-4345-A590-F1402F105682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaBHA.ClassLibrary", "HaBHA.ClassLibrary\HaBHA.ClassLibrary.csproj", "{2453B4C1-BFD4-4A06-B41B-ABAB9B43F958}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,22 @@ Global
 		{EE3F7928-C02D-4712-9E28-8A0F3E27DBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE3F7928-C02D-4712-9E28-8A0F3E27DBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE3F7928-C02D-4712-9E28-8A0F3E27DBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55363BAA-BA57-4915-A077-95B2355C44D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55363BAA-BA57-4915-A077-95B2355C44D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55363BAA-BA57-4915-A077-95B2355C44D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{55363BAA-BA57-4915-A077-95B2355C44D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55363BAA-BA57-4915-A077-95B2355C44D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55363BAA-BA57-4915-A077-95B2355C44D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6B88E5C6-2568-4345-A590-F1402F105682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B88E5C6-2568-4345-A590-F1402F105682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B88E5C6-2568-4345-A590-F1402F105682}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B88E5C6-2568-4345-A590-F1402F105682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B88E5C6-2568-4345-A590-F1402F105682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B88E5C6-2568-4345-A590-F1402F105682}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2453B4C1-BFD4-4A06-B41B-ABAB9B43F958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2453B4C1-BFD4-4A06-B41B-ABAB9B43F958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2453B4C1-BFD4-4A06-B41B-ABAB9B43F958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2453B4C1-BFD4-4A06-B41B-ABAB9B43F958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

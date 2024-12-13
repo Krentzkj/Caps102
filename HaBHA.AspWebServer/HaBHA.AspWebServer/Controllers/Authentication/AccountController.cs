@@ -1,4 +1,6 @@
 ﻿using HaBHA.AspWebServer.Models.Authentication;
+using HaBHA.AspWebServer.Models.Roles;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -53,6 +55,7 @@ namespace HaBHA.AspWebServer.Controllers.Authentication
             var claims = new[]
             {
             new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
+            new Claim(ClaimTypes.Name, user.Id.ToString()),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -90,5 +93,22 @@ namespace HaBHA.AspWebServer.Controllers.Authentication
         //    return new JwtSecurityTokenHandler().WriteToken(token);
         //}
 
+
+        [HttpPost("AssignRole")]
+        [Authorize]
+        public async Task<IActionResult> AssignRoleToUser(UserRole userRole)
+        {
+            var claimsIdentity = this.User.Identity as ClaimsIdentity;
+            var userId = claimsIdentity?.FindFirst(ClaimTypes.Name)?.Value;
+
+
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null) return NotFound("User not found.");
+
+            var result = await _userManager.AddToRoleAsync(user, userRole.RoleName);
+            if (result.Succeeded) return Ok("Role assigned.");
+
+            return BadRequest(result.Errors);
+        }
     }
 }

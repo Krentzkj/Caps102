@@ -1,0 +1,11 @@
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\bin\Debug\netstandard2.1\HaBHA.ClassLibrary.deps.json
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\bin\Debug\netstandard2.1\HaBHA.ClassLibrary.dll
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\bin\Debug\netstandard2.1\HaBHA.ClassLibrary.pdb
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.AssemblyInfo.cs
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.sourcelink.json
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.dll
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHA.ClassLibrary\obj\Debug\netstandard2.1\HaBHA.ClassLibrary.pdb

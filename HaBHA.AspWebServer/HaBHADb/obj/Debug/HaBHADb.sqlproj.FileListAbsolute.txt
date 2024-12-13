@@ -1,0 +1,10 @@
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\bin\Debug\HaBHADb.dacpac
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\bin\Debug\HaBHADb.dll
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\bin\Debug\HaBHADb.pdb
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\obj\Debug\HaBHADb.sqlproj.AssemblyReference.cache
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\obj\Debug\Model.xml
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\obj\Debug\refactor.xml
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\obj\Debug\postdeploy.sql
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\obj\Debug\predeploy.sql
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\obj\Debug\HaBHADb.dll
+C:\Users\jayve\Desktop\capstone\Caps102\HaBHA.AspWebServer\HaBHADb\obj\Debug\HaBHADb.pdb

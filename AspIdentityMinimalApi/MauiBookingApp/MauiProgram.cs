@@ -1,7 +1,6 @@
 ﻿using MauiBookingApp.Pages;
 using MauiBookingApp.Services;
 using MauiBookingApp.ViewModels;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using App.ApiClient.ServiceCollection;
 using MauiBookingApp.Pages.TenantPage;
@@ -9,7 +8,7 @@ using MauiBookingApp.Pages.Tenant;
 
 namespace MauiBookingApp
 {
-	public static class MauiProgram
+    public static class MauiProgram
 	{
 		public static MauiApp CreateMauiApp()
 		{

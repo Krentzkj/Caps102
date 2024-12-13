@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "cmQQNtKM9UveVgedb/lN4si+vF2vYzNLTr3SKQaIVQk=",
+  "Hash": "QsdS9Zw7G6sfBk5vIBFGTuhO6DNJGX6UOv57evmI5is=",
   "Source": "HaBHA.AspWebServer",
   "BasePath": "_content/HaBHA.AspWebServer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

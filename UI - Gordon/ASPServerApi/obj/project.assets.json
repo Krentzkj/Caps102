@@ -543,23 +543,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krentz\\.nuget\\packages\\": {},
+    "C:\\Users\\jayve\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krentz\\Desktop\\pullpush\\Caps102\\UI - Gordon\\ASPServerApi\\ASPServerApi.csproj",
+      "projectUniqueName": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\UI - Gordon\\ASPServerApi\\ASPServerApi.csproj",
       "projectName": "ASPServerApi",
-      "projectPath": "C:\\Users\\Krentz\\Desktop\\pullpush\\Caps102\\UI - Gordon\\ASPServerApi\\ASPServerApi.csproj",
-      "packagesPath": "C:\\Users\\Krentz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krentz\\Desktop\\pullpush\\Caps102\\UI - Gordon\\ASPServerApi\\obj\\",
+      "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\UI - Gordon\\ASPServerApi\\ASPServerApi.csproj",
+      "packagesPath": "C:\\Users\\jayve\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\UI - Gordon\\ASPServerApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Krentz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jayve\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -586,8 +586,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -621,7 +620,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

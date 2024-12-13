@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HaBHA.MauiAppBooking.MainPage">
+
+    <Grid Padding="10" RowDefinitions="Auto, Auto, *">
+        <!-- Activity Indicator -->
+        <ActivityIndicator x:Name="ActivityIndicator"
+                       IsRunning="False"
+                       IsVisible="False"
+                       Color="Blue"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       Grid.RowSpan="3" />
+
+        <!-- Buttons Section -->
+        <HorizontalStackLayout Grid.Row="0" Spacing="10">
+            <Button x:Name="btnAddemail"
+                Text="Show BH By Email"
+                Clicked="btnAddemail_Clicked" />
+            <Button x:Name="btnShowProducts"
+                Text="Show Products"
+                 />
+        </HorizontalStackLayout>
+
+        <!-- ListView Section -->
+        <ListView x:Name="productListView1"
+              Grid.Row="2"
+              HasUnevenRows="True"
+              >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <VerticalStackLayout Padding="5" Spacing="5">
+                            <!-- Room Number -->
+                            <Label Text="{Binding RoomNumber}"
+                               FontSize="17"
+                               FontAttributes="Bold" />
+
+                            <!-- Details Grid -->
+                            <Grid ColumnSpacing="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Price -->
+                                <Label Grid.Column="0"
+                                   Text="Price:"
+                                   FontAttributes="Bold" />
+                                <Label Grid.Column="1"
+                                   Text="{Binding PricePerMonth}" />
+
+                                <!-- Description -->
+                                <Label Grid.Column="0"
+                                   Text="Description:"
+                                   FontAttributes="Bold" />
+                                <Label Grid.Column="1"
+                                   Text="{Binding Descriptions}"
+                                   TextColor="Red" />
+
+                                <!-- Room Size -->
+                                <Label Grid.Column="0"
+                                   Text="Room Size:"
+                                   FontAttributes="Bold" />
+                                <Label Grid.Column="1"
+                                   Text="{Binding RoomSize}" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+
+</ContentPage>

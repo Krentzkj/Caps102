@@ -9,43 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = aspIdentity
 build_property.RootNamespace = aspIdentity
-build_property.ProjectDir = C:\ASP Web API Projects\AspIdentityMinimalApi\aspIdentity\
+build_property.ProjectDir = C:\Users\jayve\Desktop\capstone\Caps102\AspAPI\aspIdentity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ASP Web API Projects\AspIdentityMinimalApi\aspIdentity
+build_property.MSBuildProjectDirectory = C:\Users\jayve\Desktop\capstone\Caps102\AspAPI\aspIdentity
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/Admin/Create.razor]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/Admin/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/Home/Index.cshtml]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/Home/Privacy.cshtml]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/Shared/Error.cshtml]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/_ViewImports.cshtml]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/_ViewStart.cshtml]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP Web API Projects/AspIdentityMinimalApi/aspIdentity/Views/Shared/_Layout.cshtml]
+[C:/Users/jayve/Desktop/capstone/Caps102/AspAPI/aspIdentity/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-drkfxzi3b2

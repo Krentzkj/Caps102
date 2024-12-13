@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Amenities] (Table)
+       [dbo].[Amenities].[IX_Amenities_BoardinghouseId] (Index)
+       [dbo].[BoardingHouses] (Table)
+       [dbo].[BoardingHouses].[IX_BoardingHouses_TenantId] (Index)
+       [dbo].[FK_Amenities_BoardingHouses_BoardinghouseId] (Foreign Key)
+       [dbo].[FK_BoardingHouses_AspNetUsers_TenantId] (Foreign Key)
+
+** Supporting actions

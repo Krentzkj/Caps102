@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "HaBHA.AspWebServer\\HaBHA.AspWebServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "HaBHA.MauiAppBooking\\HaBHA.MauiAppBooking.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

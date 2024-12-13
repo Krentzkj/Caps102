@@ -372,3 +372,7 @@ C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows
 C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Krentz\Desktop\pullpush\Caps102\UI - Gordon\UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll
+C:\Users\jayve\Desktop\capstone\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\UI.csproj.AssemblyReference.cache
+C:\Users\jayve\Desktop\capstone\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\UI.dll
+C:\Users\jayve\Desktop\capstone\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\UI.dll
+C:\Users\jayve\Desktop\capstone\Caps102\UI - Gordon\UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\UI.pdb

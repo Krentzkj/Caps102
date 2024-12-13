@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp.net Core Identity with Jwt in Web API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d48ecf0d34153ef322e64e308e81e9c50274890")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp.net Core Identity with Jwt in Web API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp.net Core Identity with Jwt in Web API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

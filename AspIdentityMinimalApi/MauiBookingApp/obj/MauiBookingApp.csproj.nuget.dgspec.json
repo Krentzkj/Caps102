@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj": {}
+    "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj": {}
   },
   "projects": {
-    "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+    "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
+        "projectUniqueName": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
         "projectName": "App.ApiClient",
-        "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
-        "packagesPath": "C:\\Users\\63966\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\obj\\",
+        "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
+        "packagesPath": "C:\\Users\\jayve\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\63966\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jayve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "netstandard2.1": {
@@ -74,25 +80,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj": {
+    "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj",
+        "projectUniqueName": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj",
         "projectName": "MauiBookingApp",
-        "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj",
-        "packagesPath": "C:\\Users\\63966\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\MauiBookingApp\\obj\\",
+        "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\MauiBookingApp\\MauiBookingApp.csproj",
+        "packagesPath": "C:\\Users\\jayve\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\MauiBookingApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\63966\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jayve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,32 +117,32 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
-                "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+              "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+                "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
               }
             }
           },
-          "net8.0-ios17.0": {
+          "net8.0-ios18.0": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
-                "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+              "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+                "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
               }
             }
           },
-          "net8.0-maccatalyst17.0": {
+          "net8.0-maccatalyst18.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
-                "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+              "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+                "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
-                "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
+              "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj": {
+                "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj"
               }
             }
           }
@@ -145,7 +151,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-android34.0": {
@@ -165,16 +177,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.11, )",
               "autoReferenced": true
             }
           },
@@ -189,6 +201,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Android.Ref.34",
+              "version": "[34.0.145, 34.0.145]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.34.android-arm",
+              "version": "[34.0.145, 34.0.145]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.34.android-arm64",
+              "version": "[34.0.145, 34.0.145]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.34.android-x64",
+              "version": "[34.0.145, 34.0.145]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.34.android-x86",
+              "version": "[34.0.145, 34.0.145]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -197,9 +231,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-ios17.0": {
+        "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
@@ -216,16 +250,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.11, )",
               "autoReferenced": true
             }
           },
@@ -240,6 +274,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.iOS.Ref.net8.0_18.0",
+              "version": "[18.0.8316, 18.0.8316]"
+            },
+            {
+              "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
+              "version": "[18.0.8316, 18.0.8316]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -248,9 +292,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-maccatalyst17.0": {
+        "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
@@ -267,16 +311,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.11, )",
               "autoReferenced": true
             }
           },
@@ -292,6 +336,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
+              "version": "[18.0.8316, 18.0.8316]"
+            },
+            {
+              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
+              "version": "[18.0.8316, 18.0.8316]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"
@@ -300,7 +354,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -319,11 +373,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.83, )"
             }
           },
           "imports": [
@@ -340,18 +394,18 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.38, 10.0.19041.38]"
+              "version": "[10.0.19041.54, 10.0.19041.54]"
             }
           ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.Windows.SDK.NET.Ref": {
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj": {}
+    "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspAPI\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj": {}
   },
   "projects": {
-    "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj": {
+    "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspAPI\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj",
+        "projectUniqueName": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspAPI\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj",
         "projectName": "Asp.net Core Identity with Jwt in Web API",
-        "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj",
-        "packagesPath": "C:\\Users\\63966\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\Asp.net Core Identity with Jwt in Web API\\obj\\",
+        "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspAPI\\Asp.net Core Identity with Jwt in Web API\\Asp.net Core Identity with Jwt in Web API.csproj",
+        "packagesPath": "C:\\Users\\jayve\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspAPI\\Asp.net Core Identity with Jwt in Web API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\63966\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jayve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -69,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
