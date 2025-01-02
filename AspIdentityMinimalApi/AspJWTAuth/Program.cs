@@ -1,14 +1,15 @@
 using AspJWTAuth.Data;
+using AspJWTAuth.Models.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Cryptography;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-
+    
 byte[] secretbyte = new byte[64];
 using(var random = RandomNumberGenerator.Create())
 {
@@ -24,39 +25,79 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<AppDbContext>(x =>
+builder.Services.AddDbContext<ApplicationDbContext>(x =>
 {
-	var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-	x.UseSqlServer(connectionString);
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    x.UseSqlServer(connectionString);
 });
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-	.AddJwtBearer(options =>
-	{
-		options.TokenValidationParameters = new TokenValidationParameters
-		{
-			ValidateIssuer = true,
-			ValidateAudience = false,
-			ValidateLifetime = true,
-			ValidateIssuerSigningKey = true,
-			ValidIssuer = "SampleJwt",
-			IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
-		};
-	});
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+});
 
 builder.Services.AddAuthentication();
+//.AddBearerToken(IdentityConstants.BearerScheme); // new
+// Register SmtpSettings configuration from appsettings.json
 
-builder.Services.AddIdentityApiEndpoints<IdentityUser>(options =>
+builder.Services.Configure<IdentityOptions>(options =>
 {
-	options.Password.RequiredLength = 6;
-	options.Password.RequireNonAlphanumeric = false;
-	options.Password.RequireDigit = false;
-	options.Password.RequireLowercase = false;
-	options.Password.RequireUppercase = false;
+    options.SignIn.RequireConfirmedEmail = true;
+});
+//builder.Services.AddIdentityCore<IdentityUser>(options =>
+//{
+//    options.SignIn.RequireConfirmedEmail = true;
+//});
+
+builder.Services.AddIdentityApiEndpoints<ApplicationUser>(options =>
+{
+    options.Password.RequiredLength = 6;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+
+    //options.SignIn.RequireConfirmedEmail = true;
+
+    //options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    //options.Lockout.MaxFailedAccessAttempts = 5;
+    //options.Lockout.AllowedForNewUsers = true;
+
+    //options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+    //options.User.RequireUniqueEmail = false;
+
+
 })
-	.AddRoles<IdentityRole>()
-	.AddEntityFrameworkStores<AppDbContext>()
-	.AddDefaultTokenProviders();
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+//new 
+//builder.Services.AddTransient<IProductRepository, ProductRepository>();
+//builder.Services.AddTransient<IFileService, FileService>();
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policy =>
+        {
+            policy.WithOrigins("*").AllowAnyMethod().AllowAnyHeader(); ;
+        });
+});
+//new
 
 //builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 //	.AddEntityFrameworkStores<AppDbContext>()
@@ -79,6 +120,16 @@ app.MapGet("/hello", () => "Hellowordl");
 app.MapCustomIdentityApi<IdentityUser>();
 
 app.UseHttpsRedirection();
+
+//new
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+           Path.Combine(builder.Environment.ContentRootPath, "Uploads")),
+    RequestPath = "/Resources"
+});
+app.UseCors();
+//new
 
 app.UseAuthorization();
 

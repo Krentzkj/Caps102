@@ -45,5 +45,60 @@ namespace App.ApiClient
         {
             return await _httpClient.GetFromJsonAsync<List<BoardingHouse>?>($"/api/Tenant/Get-Tenant-BoardingHouse/{email}");
         }
+
+        public async Task<List<BoardingHouse>?> GetBoardingHouseEmail(string email, string token)
+        {
+            try
+            {
+                _httpClient.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                return await _httpClient.GetFromJsonAsync<List<BoardingHouse>?>($"/api/Tenant/Get-Tenant-BoardingHouse/{email}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return null;
+            }
+        }
+
+        public async Task<List<BoardingHouse>?> GetBoardingHouseEmails(string email, string token)
+        {
+            _httpClient.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            return await _httpClient.GetFromJsonAsync<List<BoardingHouse>?>($"/api/Tenant/Get-Tenant-BoardingHouse/{email}");
+        }
+
+        public async Task<List<BoardingHouse>?> GetAllBoardingHousesAsync(string token)
+        {
+            try
+            {
+                // Add the Bearer token to the Authorization header
+                _httpClient.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                // Send GET request
+                var response = await _httpClient.GetAsync("/api/Tenant/Getall");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    // Deserialize response to a list of BoardingHouse
+                    return await response.Content.ReadFromJsonAsync<List<BoardingHouse>>();
+                }
+                else
+                {
+                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return null;
+            }
+        }
+
+        
     }
 }

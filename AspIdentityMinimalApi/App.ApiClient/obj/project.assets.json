@@ -745,23 +745,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jayve\\.nuget\\packages\\": {},
+    "C:\\Users\\63966\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
+      "projectUniqueName": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
       "projectName": "App.ApiClient",
-      "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
-      "packagesPath": "C:\\Users\\jayve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\App.ApiClient\\obj\\",
+      "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\App.ApiClient.csproj",
+      "packagesPath": "C:\\Users\\63966\\.nuget\\packages\\",
+      "outputPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\App.ApiClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jayve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\63966\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -783,13 +783,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "netstandard2.1": {
@@ -824,7 +818,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

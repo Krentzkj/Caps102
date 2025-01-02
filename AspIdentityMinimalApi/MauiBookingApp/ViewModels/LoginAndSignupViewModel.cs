@@ -48,13 +48,23 @@ namespace MauiBookingApp.ViewModels
 			await clientService.Register(RegisterModel);
 			/*await Shell.Current.GoToAsync(nameof(AssignRolePage));*/ //AssignRolePage
             //await clientService.ConfirmEmail(EmailConfirmation);
+			
         }
 
 		[RelayCommand]
 		private async Task Login()
 		{
 			await clientService.Login(LoginModel);
-            await Shell.Current.GoToAsync(nameof(AssignRolePage));
+            //await Shell.Current.GoToAsync(nameof(AssignRolePage));
+            IsAuthenticated = true;
+			if (IsAuthenticated is true)
+			{
+				var action = Shell.Current.DisplayAlert("Success", "Successfully loggedin!", "Ok");
+            }
+			else
+			{
+                await Shell.Current.DisplayAlert("Error", "Credentials Does Not Match!", "Ok");
+            }
             GetUserNameFromSecuredStorage();
 		}
 

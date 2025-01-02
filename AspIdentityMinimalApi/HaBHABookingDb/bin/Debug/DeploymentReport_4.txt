@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[BoardingHouses].[TenantId] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[BoardingHouses].[IX_BoardingHouses_TenantId] (Index)
+       [dbo].[FK_BoardingHouses_AspNetUsers_TenantId] (Foreign Key)
+     Alter
+       [dbo].[BoardingHouses] (Table)
+     Create
+       [dbo].[BoardingHouses].[IX_BoardingHouses_UserId] (Index)
+       [dbo].[FK_BoardingHouses_AspNetUsers_UserId] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[BoardingHouses].[TenantId] is being dropped, data loss could occur.
+

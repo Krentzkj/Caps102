@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBookingApp.Pages.Owner.OwnerAddEditBoardingHousePage"
+             Title="OwnerAddEditBoardingHousePage">
+
+    <VerticalStackLayout>
+
+        <ScrollView>
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center">
+
+                <Image
+                    x:Name="Image_Upload"
+                    HeightRequest="400"
+                    WidthRequest="400"
+                    HorizontalOptions="Center">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+
+                <Label
+                    Text="Upload Image"
+                    FontSize="32"
+                    HorizontalOptions="Center" />
+
+                <Button
+                    Text="Upload Image"
+                    Clicked="UploadImage_Clicked"
+                    HorizontalOptions="Center" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+        
+        <Entry x:Name="txtRoomNumber" Placeholder="Room Number"/>
+        <Entry x:Name="txtRoomSize" Placeholder="Room Size"/>
+        <Entry x:Name="txtPricePerMonth" Placeholder="Price"/>
+        <Entry x:Name="txtIsAvailble" Placeholder="IsAvailble"/>
+        <!--<Entry x:Name="txtIsAvailble" Placeholder="IsAvailble"/>-->
+        <Entry x:Name="txtDescriptions" Placeholder="Descriptions"/>
+
+        <Button x:Name="btnAdd" Text="Save" Margin="0,20" Clicked="btnAdd_Clicked" />
+        <Button x:Name="btnCancel" Text="Cancel" Clicked="btnCancel_Clicked"/>
+    </VerticalStackLayout>
+    
+</ContentPage>

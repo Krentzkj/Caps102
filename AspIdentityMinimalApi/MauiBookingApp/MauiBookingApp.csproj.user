@@ -9,7 +9,25 @@
     <MauiXaml Update="Pages\AssignRolePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\AuthPage\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Client\ClientMakeRequestPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Client\ClientNewsFeedPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\MauiaLoader.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Owner\OwnerAddEditBoardingHousePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Owner\OwnerDashPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Owner\OwnerMainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\SignUpPage.xaml">
@@ -36,7 +54,7 @@
     <MauiXaml Update="Pages\Client\Dashboard.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\Tenant\OwnerDashboardPage.xaml">
+    <MauiXaml Update="UploadImagetodb.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

@@ -1,15 +1,8 @@
 ﻿using BoardingHouse = MauiBookingApp.Models.Tenant.BoardingHouse;
 using MauiBookingApp.Models.Authentication;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Net.Http.Json;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
+using System.Net.Http.Headers;
 
 namespace MauiBookingApp.Services
 {
@@ -37,7 +30,7 @@ namespace MauiBookingApp.Services
 
             try
             {
-                var result = await httpClient.PostAsJsonAsync("/register", model);
+                var result = await httpClient.PostAsJsonAsync("/api/Account/register", model);
 
                 if (result.IsSuccessStatusCode)
                 {
@@ -53,21 +46,45 @@ namespace MauiBookingApp.Services
                 await Shell.Current.DisplayAlert("Error", $"An unexpected error occurred: {ex.Message}", "Ok");
             }
         }
-        
 
-		public async Task Login(LoginModel model)
-		{
-			var httpClient = httpClientFactory.CreateClient("custom-httpclient");
-			var result = await httpClient.PostAsJsonAsync("/login", model);
-			var response = await result.Content.ReadFromJsonAsync<LoginResponse>();
-			if (response is not null)
-			{
-				var serializeResponse = JsonSerializer.Serialize(
-					new LoginResponse() { AccessToken = response.AccessToken, RefreshToken = response.RefreshToken, UserName = model.Email });
-				await SecureStorage.Default.SetAsync("Authentication", serializeResponse);
-			}
-		}
-		public async Task AsignRoles(UserRole userRole)
+
+        //public async Task Login(LoginModel model)
+        //{
+        //    var httpClient = httpClientFactory.CreateClient("custom-httpclient");
+
+        //    try
+        //    {
+        //        var result = await httpClient.PostAsJsonAsync("/api/Account/login", model);
+
+        //        if (result.IsSuccessStatusCode)
+        //        {
+        //           // await Shell.Current.DisplayAlert("Success", "Successfully loggedin!", "Ok");
+        //        }
+        //        else
+        //        {
+        //            await Shell.Current.DisplayAlert("Error", $"Failed to Login: {result.ReasonPhrase}", "Ok");
+        //        }
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        await Shell.Current.DisplayAlert("Error", $"An unexpected error occurred: {ex.Message}", "Ok");
+        //    }
+        //}
+
+        public async Task Login(LoginModel model)
+        {
+            var httpClient = httpClientFactory.CreateClient("custom-httpclient");
+            var result = await httpClient.PostAsJsonAsync("/api/Account/login", model);
+            var response = await result.Content.ReadFromJsonAsync<LoginResponse>();
+            if (response is not null)
+            {
+                var serializeResponse = JsonSerializer.Serialize(
+                    new LoginResponse() { Token = response.Token, UserName = model.Email });
+                await SecureStorage.Default.SetAsync("Authentication", serializeResponse);
+            }
+        }
+        public async Task AsignRoles(UserRole userRole)
 		{
             var httpClient = httpClientFactory.CreateClient("custom-httpclient");
             var result = await httpClient.PostAsJsonAsync("/api/Roles/AssignRoleByEmail", userRole);
@@ -77,6 +94,38 @@ namespace MauiBookingApp.Services
             }
             await Shell.Current.DisplayAlert("Alert", result.ReasonPhrase, "Ok");
 
+        }
+
+        public async Task GetUserRoles(string? token)
+        {
+            var httpClient = httpClientFactory.CreateClient("custom-httpclient");
+
+            try
+            {
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+                var response = await httpClient.GetAsync("/api/Account/roles");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var roles = await response.Content.ReadFromJsonAsync<UserRole>();
+                    //await Shell.Current.DisplayAlert("Success", "Tenants retrieved successfully!", "Ok");
+                    if (roles != null)
+                    {
+                        var serializeResponse = JsonSerializer.Serialize(
+                            new UserRole() { RoleName = roles.RoleName });
+                        await SecureStorage.Default.SetAsync("Authentication", serializeResponse);
+                    }
+                }
+                else
+                {
+                    await Shell.Current.DisplayAlert("Error", $"Failed to fetch tenants: {response.ReasonPhrase}", "Ok");
+                }
+            }
+            catch (Exception ex)
+            {
+                await Shell.Current.DisplayAlert("Error", $"An error occurred: {ex.Message}", "Ok");
+            }
         }
 		public async Task ConfirmEmail(EmailConfirmation emailConfirmation)
 		{
@@ -131,6 +180,35 @@ namespace MauiBookingApp.Services
                     var tenants = await response.Content.ReadFromJsonAsync<List<BoardingHouse>>();
                     //await Shell.Current.DisplayAlert("Success", "Tenants retrieved successfully!", "Ok");
                     return tenants;
+                }
+                else
+                {
+                    await Shell.Current.DisplayAlert("Error", $"Failed to fetch tenants: {response.ReasonPhrase}", "Ok");
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                await Shell.Current.DisplayAlert("Error", $"An error occurred: {ex.Message}", "Ok");
+                return null;
+            }
+        }
+
+        public async Task<List<BoardingHouse>?> GetBoardingHousesWithAmenitiesAsync(string? token)
+        {
+            var httpClient = httpClientFactory.CreateClient("custom-httpclient");
+
+            try
+            {
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+                var response = await httpClient.GetAsync("/api/Tenant/GetBoardingHousesWithAmenities");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var boardingHouses = await response.Content.ReadFromJsonAsync<List<BoardingHouse>>();
+                    //await Shell.Current.DisplayAlert("Success", "Tenants retrieved successfully!", "Ok");
+                    return boardingHouses;
                 }
                 else
                 {
@@ -201,33 +279,33 @@ namespace MauiBookingApp.Services
             }
         }
 
-        public async Task<bool> UpdateBoardingHouseAsync(int id, int roomNumber, int roomSize, decimal pricePerMonth, string email, string descriptions, bool isAvailable)
-        {
-            var httpClient = httpClientFactory.CreateClient("custom-httpclient");
+        //public async Task<bool> UpdateBoardingHouseAsync(int id, int roomNumber, int roomSize, decimal pricePerMonth, string email, string descriptions, bool isAvailable)
+        //{
+        //    var httpClient = httpClientFactory.CreateClient("custom-httpclient");
 
-            try
-            {
-                var queryString = $"?id={id}&room_Number={roomNumber}&room_Size={roomSize}&price_Per_Month={pricePerMonth}&email={Uri.EscapeDataString(email)}&descriptions={Uri.EscapeDataString(descriptions)}&is_Available={isAvailable}";
+        //    try
+        //    {
+        //        var queryString = $"?id={id}&room_Number={roomNumber}&room_Size={roomSize}&price_Per_Month={pricePerMonth}&email={Uri.EscapeDataString(email)}&descriptions={Uri.EscapeDataString(descriptions)}&is_Available={isAvailable}";
 
-                var response = await httpClient.GetAsync($"/api/Tenant/Tenant-Update-BoardingHouse{queryString}");
+        //        var response = await httpClient.GetAsync($"/api/Tenant/Tenant-Update-BoardingHouse{queryString}");
 
-                if (response.IsSuccessStatusCode)
-                {
-                    await Shell.Current.DisplayAlert("Success", "Boarding house updated successfully!", "OK");
-                    return true;
-                }
-                else
-                {
-                    await Shell.Current.DisplayAlert("Error", $"Failed to update boarding house: {response.ReasonPhrase}", "OK");
-                    return false;
-                }
-            }
-            catch (Exception ex)
-            {
-                await Shell.Current.DisplayAlert("Error", $"An error occurred: {ex.Message}", "OK");
-                return false;
-            }
-        }
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            await Shell.Current.DisplayAlert("Success", "Boarding house updated successfully!", "OK");
+        //            return true;
+        //        }
+        //        else
+        //        {
+        //            await Shell.Current.DisplayAlert("Error", $"Failed to update boarding house: {response.ReasonPhrase}", "OK");
+        //            return false;
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        await Shell.Current.DisplayAlert("Error", $"An error occurred: {ex.Message}", "OK");
+        //        return false;
+        //    }
+        //}
 
 
         //public async Task<List<BoardingHouse>?> GetAllTenantsAsync(string status)

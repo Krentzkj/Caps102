@@ -1,8 +1,5 @@
 is_global = true
 build_property.RootNamespace = App.ApiClient
-build_property.ProjectDir = C:\Users\jayve\Desktop\capstone\Caps102\AspIdentityMinimalApi\App.ApiClient\
+build_property.ProjectDir = C:\ASP Web API Projects\AspIdentityMinimalApi\App.ApiClient\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

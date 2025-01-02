@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[BookingTransactions] (Table)
+       [dbo].[BookingTransactions].[IX_BookingTransactions_BoardingHouseId] (Index)
+       [dbo].[BookingTransactions].[IX_BookingTransactions_ClientId] (Index)
+       Default Constraint: unnamed constraint on [dbo].[BookingTransactions] (Default Constraint)
+       [dbo].[FK_BookingTransactions_BoardingHouses_BoardingHouseId] (Foreign Key)
+       [dbo].[FK_BookingTransactions_AspNetUsers_ClientId] (Foreign Key)
+
+** Supporting actions

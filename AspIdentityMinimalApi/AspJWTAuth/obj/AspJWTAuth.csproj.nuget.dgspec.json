@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj": {}
+    "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj": {
+    "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj",
+        "projectUniqueName": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj",
         "projectName": "AspJWTAuth",
-        "projectPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj",
-        "packagesPath": "C:\\Users\\jayve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jayve\\Desktop\\capstone\\Caps102\\AspIdentityMinimalApi\\AspJWTAuth\\obj\\",
+        "projectPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\AspJWTAuth\\AspJWTAuth.csproj",
+        "packagesPath": "C:\\Users\\63966\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP Web API Projects\\AspIdentityMinimalApi\\AspJWTAuth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jayve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\63966\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,18 +39,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.11, )"
@@ -99,6 +97,14 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            },
+            "SendGrid.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -123,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
